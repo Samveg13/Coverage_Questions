@@ -1,0 +1,1127 @@
+Unnamed: 0,TICKET_URL,CHANNEL,TICKET_CREATED_AT,TICKET_CREATED_AT_WEEKDAY,TICKET_UPDATED_AT,TICKET_TYPE,TICKET_ID,SUBJECT,DESCRIPTION,Source_Passages_AI,Extracted User Query,colbert_response,AI_Response,Gold Responses,AI response correctness,Correctness_colbert,Gold Answer Present,answer2,PRIORITY,STATUS,RECIPIENT_EMAIL_ADDRESS,REQUESTER_ID,SUBMITTER_ID,ASSIGNEE_ID,ORG_ID,GROUP_ID,PROBLEM_ID,HAS_INCIDENTS,IS_PUBLIC,TICKET_FORM_ID,BRAND_ID,TICKET_CUSTOM_CATEGORY,TICKET_FOR_USER_TYPE,WAS_BROKER_COPIED,CHANGE_STATUS,AGENCY_NAME,COMPANY_REVENUE_FIELD,COMPANY_REVENUE,COMPANY_REVENUE_FLAG,IS_RENEWAL,VULN_STATUS,TAGS,FIRST_TAGS_ON_TICKET,FIRST_ROUTING_TAGS_ON_TICKET,FIRST_ROUTING_TAG_ON_TICKET,FIRST_ROUTING_BRAND_ON_TICKET,FIRST_ROUTING_QUEUE_ON_TICKET,MOST_RECENT_TAGS_ON_TICKET,MOST_RECENT_ROUTING_TAGS_ON_TICKET,MOST_RECENT_ROUTING_TAG_ON_TICKET,MOST_RECENT_ROUTING_BRAND_ON_TICKET,MOST_RECENT_ROUTING_QUEUE_ON_TICKET,BRAND_URL,BRAND_NAME,BRAND_HAS_HELP_CENTER,BRAND_HELP_CENTER_STATE,IS_BRAND_ACTIVE,BRAND_SUBDOMAIN,IS_DEFAULT_BRAND,GROUP_NAME,GROUP_CREATED_AT,GROUP_UPDATED_AT,GROUP_URL,ORG_URL,ORG_NAME,ORG_CREATED_AT,ORG_UPDATED_AT,ORG_DETAILS,ORG_NOTES,ORG_PROGRAM,ORG_RISK_SCORE,REQUESTER_URL,SUBMITTER_URL,ASSIGNEE_URL,REQUESTER_NAME,SUBMITTER_NAME,ASSIGNEE_NAME,REQUESTER_EMAIL,SUBMITTER_EMAIL,ASSIGNEE_EMAIL,REQUESTER_CREATED_AT,SUBMITTER_CREATED_AT,ASSIGNEE_CREATED_AT,REQUESTER_UPDATED_AT,SUBMITTER_UPDATED_AT,ASSIGNEE_UPDATED_AT,REQUESTER_TIME_ZONE,SUBMITTER_TIME_ZONE,ASSIGNEE_TIME_ZONE,REQUESTER_PHONE,SUBMITTER_PHONE,ASSIGNEE_PHONE,REQUESTER_LOCALE,SUBMITTER_LOCALE,ASSIGNEE_LOCALE,REQUESTER_ROLE,SUBMITTER_ROLE,ASSIGNEE_ROLE,REQUESTER_VERIFIED,SUBMITTER_VERIFIED,ASSIGNEE_VERIFIED,REQUESTER_ACTIVE,SUBMITTER_ACTIVE,ASSIGNEE_ACTIVE,REQUESTER_LAST_LOGIN_AT,SUBMITTER_LAST_LOGIN_AT,ASSIGNEE_LAST_LOGIN_AT,REQUESTER_TWO_FACTOR_AUTH_ENABLED,SUBMITTER_TWO_FACTOR_AUTH_ENABLED,ASSIGNEE_TWO_FACTOR_AUTH_ENABLED,REQUESTER_SUSPENDED,SUBMITTER_SUSPENDED,ASSIGNEE_SUSPENDED,FEEDBACK_URL,FEEDBACK_SCORE,FEEDBACK_COMMENT,FEEDBACK_REASON,TICKET_LAST_SOLVED_AT,TICKET_FIRST_SOLVED_AT,TICKET_LAST_SOLVED_AT_WEEKDAY,TICKET_FIRST_SOLVED_AT_WEEKDAY,TICKET_CLOSED_AT,TICKET_IS_SOLVED,TICKET_WAS_REOPENED,TICKET_ASSIGNED_AT,TICKET_ASSIGNED_AT_WEEKDAY,TICKET_ASSIGNED_SLA_DUE_DATE_SSC,TICKET_ASSIGNED_TARGET_DUE_DATE_SSC,TICKET_LAST_SOLVED_SLA_DUE_DATE_SSC,TICKET_LAST_SOLVED_AT_TARGET_DUE_DATE_SSC,TICKET_FIRST_SOLVED_SLA_DUE_DATE_SSC,TICKET_FIRST_SOLVED_AT_TARGET_DUE_DATE_SSC,TICKET_ASSIGNED_SLA_DUE_DATE_CS,TICKET_ASSIGNED_TARGET_DUE_DATE_CS,TICKET_LAST_SOLVED_SLA_DUE_DATE_CS,TICKET_LAST_SOLVED_AT_TARGET_DUE_DATE_CS,TICKET_FIRST_SOLVED_SLA_DUE_DATE_CS,TICKET_FIRST_SOLVED_AT_TARGET_DUE_DATE_CS,CPN_REGEX_MATCH_FROM_SUBJECT,CPN_REGEX_MATCH_FROM_DESCRIPTION,COALITION_POLICY_NUMBER,WAS_COALITION_POLICY_NUMBER_FILLED_WITH_REGEX_MATCH,PROBLEM_SUBJECT,PROBLEM_DESCRIPTION,PROBLEM_PRIORITY,PROBLEM_TICKET_CREATED_AT,TICKET_HAD_CALL,TICKET_BATCH_ID,TICKET_BATCH_FIRST_CREATED_AT,N_TICKETS_IN_TICKET_BATCH,TICKET_BATCH_TICKET_LIST,TICKET_BATCH_TICKET_TAG_LIST,N_QUOTES_IN_TICKET_BATCH,TICKET_BATCH_QUOTE_LIST,TICKET_BATCH_QUOTE_UUID_LIST,TICKET_BATCH_FIRST_SUBMISSION_CREATED_AT,TICKET_BATCH_FIRST_SECONDARY_REVIEW_COMPLETED_AT,TICKET_BATCH_FIRST_QUOTE_SLA_TIME,TICKET_BATCH_FIRST_BIND_SLA_TIME,IS_TICKET_BATCH_RENEWAL,TICKET_BATCH_SENT_TO_SECONDARY_REVIEW,WAS_FIRST_QUOTE_IN_TICKET_BATCH_MANUALLY_CREATED,EMAIL_TO_SUBMISSION_SLA_IN_SECONDS,SUBMISSION_TO_QUOTE_SLA_IN_SECONDS,QUOTE_TO_BIND_SLA_IN_SECONDS,EMAIL_TO_QUOTE_SLA_IN_SECONDS,TICKET_BATCH_BREACHED_EMAIL_TO_QUOTE_SLA,TICKET_BATCH_COMPANY_REVENUE,TICKET_BATCH_COMPANY_REVENUE_SEGMENT,FIRST_QUOTE_IN_TICKET_BATCH_ORIGINATION,TICKET_BATCH_HAS_BINDER,TICKET_BATCH_PREMIUM,TICKET_BATCH_BOUND_PREMIUM,TICKET_BATCH_BOUND_PREMIUM_INCL_ENDORSEMENTS,AGENCY_ID,AGENCY_UUID,AGENCY_GROUP,AGENCY_GROUP_MASTER,BROKER_ID,BROKER_UUID,BROKER_NAME,BROKER_COUNTRY,BROKER_STATE,ACCOUNT_LINE_UUID,TICKET_BATCH_WAS_EVER_CONTINGENT,TICKET_BATCH_CONTINGENCY_REASONS,TICKET_BATCH_BINDER_EFFECTIVE_DATE,TICKET_BATCH_EFFECTIVE_DATE,TICKET_BATCH_MIN_EFFECTIVE_DATE,TICKET_BATCH_END_DATE,TICKET_BATCH_HUMAN_PRICE_DEVIATION,INSURANCE_MARKET,TEAM_GROUPING,MANAGER_NAME,CSAT_SCORE,CSAT_POSITIVE_DETAILS,CSAT_NEGATIVE_DETAILS,CSAT_UNSATISFIED_REASON,CSAT_LOCATION,FEEDBACK_SCORE_CSAT,CSAT_FEEDBACK,CSAT_REASON,TOTAL_TIME_SPENT_IN_SECONDS,N_STATUSES_SWITCHED_TO_PENDING,N_STATUSES_SWITCHED_TO_SOLVED,TICKET_LAST_SOLVED_IN_SECONDS,TICKET_FIRST_SOLVED_IN_SECONDS,TICKET_ASSIGNED_IN_SECONDS,TICKET_FIRST_SOLVED_AFTER_ASSIGNMENT_IN_SECONDS,TICKET_FIRST_REPLY_TIME_IN_CALENDAR_SECONDS,TICKET_REQUESTER_WAIT_TIME_IN_CALENDAR_SECONDS,TICKET_FULL_RESOLUTION_TIME_IN_SECONDS,TICKET_HAS_APPLIED_FIRST_REPLY_TIME_CALENDAR_SLA,TICKET_HAS_APPLIED_REQUESTER_WAIT_TIME_CALENDAR_SLA,TICKET_HAS_APPLIED_CALENDAR_SLAS,TICKET_HAS_APPLIED_BUSINESS_SLAS,TICKET_HAS_APPLIED_REQUESTER_WAIT_TIME_BUSINESS_SLA,TICKET_HAS_APPLIED_FIRST_REPLY_TIME_BUSINESS_SLA,TICKET_REQUESTER_WAIT_TIME_IN_BUSINESS_SECONDS,TICKET_FIRST_REPLY_TIME_IN_BUSINESS_SECONDS,TICKET_BREACHED_REQUESTER_WAIT_TIME_BUSINESS_SLA,TICKET_BREACHED_FIRST_REPLY_TIME_BUSINESS_SLA,TAXONOMY_CATEGORY,TAXONOMY_WORKTYPE,JIRA_TICKET_URL,JIRA_STATUS,BD_NAME,BD_EMAIL,BD_REGION,BROKER_PERSONAL_ADDRESS_STATE,NUM_PUBLIC_COMMENTS,col_source_pass,retrieved_chunks
+,https://coalition.zendesk.com/api/v2/tickets/676697.json,email,2024-03-07T21:50:56.000Z,2024-03-07T21:50:56.000Z,2024-03-26T20:05:30.121Z,task,676697,RE: United States Artists (Policy C-4LQT-064011-CYBER-2023) may qualify for automatic renewal,"Good afternoon,
+
+Can you confirm that if an employee is working from home and computer gets hacked compromising United States Artists info, is there coverage for cyber?
+
+ 
+
+Does it matter if they are using their own personal computer vs a business owned computer? 
+
+ 
+
+Thank you,
+
+ 
+
+Tony Spirovski
+
+Account Manager
+
+Apogee Insurance Group, a Berkshire Hathaway Company
+
+CA Organization License # 0G93801
+
+1900 Spring Rd Suite 310 Oak Brook, IL 60523
+
+p: 877.337.3200 x7054
+
+Email: tspirovski@apogeeinsgroup.com
+
+ 
+
+
+
+
+-----Original Message-----
+From: Coalition
+Sent: Wednesday, January 3, 2024, 12:45 PM
+To:Corey MacDonald - Apogee
+Subject: United States Artists (Policy C-4LQT-064011-CYBER-2023) may qualify for automatic renewal
+
+
+
+
+
+
+
+Action Required:
+* None. This policy will renew 3 weeks prior to expiration. Please ignore the Signed Application subjectivity on the attached quote.
+Hi Corey MacDonald,
+
+United States Artists's cyber insurance policy (policy C-4LQT-064011-CYBER-2023) is set to expire on April 1, 2024. Based on our review of this company, this policy qualifies for automatic renewal as long as revenue remains under $50M. For more, see Coalition’s Renewal Guide [mandrillapp.com].
+
+Expiring Policy:
+* Term: April 1, 2023 - April 1, 2024
+* Premium: $3,027.00
+* Total Price: $3,027.00
+New Policy:
+* Term: April 1, 2024 - April 1, 2025
+* Premium: $3,179.00
+* Total Price: $3,179.00
+* Percentage Difference from Expiring Policy: 5%
+Attached:
+* Quotation
+* Coalition Risk Assessment
+* Loss Run
+* Specimen Policy
+While Coalition believes it is experiencing lower loss frequency than the broader market, we are seeing increased, widespread cyber risk and activity, and have updated rates on this policy as a result. We continue to invest heavily in helping our customers manage risk, inclusive of free continuous cyber threat monitoring and risk mitigation services.
+
+Should there be a material change in your risk prior to renewal, including any claims, circumstances that may give rise to a claim, or notifications or detection of critical vulnerabilities by us, we reserve the right to modify our terms.
+
+If you want to renew and all of the above is true, no further action is needed on your part. You'll receive the renewal policy and invoice approximately three weeks prior to the current policy's expiration date. Note: Diligent search requirements, if required to renew this policy, remain your responsibility.
+If you have any questions, please contact us by replying to this email (renewals@coalitioninc.com).
+All the best,
+Coalition Team
+
+
+
+Sent by Coalition Inc. [mandrillapp.com] 55 2nd Street, Suite 2500, San Francisco CA 94105
+Help Center [mandrillapp.com] • Privacy Policy [mandrillapp.com]","[""Insured, you, or your means:\\\\n1. the named insured;\\\\n2. a subsidiary;\\\\n3. senior executives and employees;\\\\n4. an independent contractor , who is a natural person, solely acting in the\\\\nnormal course of the named insured or subsidiary’s business operations\\\\nwhile under their direct supervision;\\\\n5. with respect to Sections II.A, NETWORK AND INFORMA TION SECURITY\\\\nLIABILITY , II.B, REGULA TORY DEFENSE AND PENAL TIES, and II.E,\\\\nMUL TIMEDIA CONTENT LIABILITY , any person or entity you have agreed\\\\nin a written contract or agreement to add as an additional insured to a\\\\npolicy providing the type of coverage afforded by this Policy, provided\\\\nsuch contract or agreement is in effect or becomes effective during the\\\\npolicy period , and solely for such person' s or entity’ s liability arising out of\\\\nthe named insured’s or subsidiary’s acts (hereafter an additional insured);\\\\n6. the estates, heirs, legal representatives, or assignees of any employee or\\\\nsenior executive in the event of their death, incapacity, insolvency, or\\\\nbankruptcy but solely for the estates’ , heirs’ , legal representatives’ , or\\\\nassignee’ s liability arising out of the acts committed by the employee or\\\\nsenior executive , in their capacity as such; and\\\\n7 . the spouse, domestic partner , or civil partner of any employee or senior\\\\nexecutive solely for such spouse’ s, domestic partner’ s, or civil partner’ s\\\\nliability resulting from a claim against the employee or senior executive ,\\\\nin their capacity as such; or their ownership or interest in property which\\\\nthe claimant seeks as recovery for a claim against the employee or senior\\\\nexecutive, in their capacity as such.Personal funds fraud means the loss of personal money, securities, or property from a personal bank\\\\naccount of a senior executive as a direct result of a security failure of the named\\\\ninsured’s or a subsidiary’s computer systems.\\\\nRegulatory penalties means monetary ﬁnes and penalties, including consumer redress awards,\\\\nimposed in a regulatory proceeding to the extent insurable under applicable law\\\\nin the applicable jurisdiction that most favors coverage for such ﬁnes and\\\\npenalties."", 'SPECIMENFunds transfer loss does not mean and will not include: (1) the loss of personal\\\\nmoney, securities, or property of your employees with the exception of senior\\\\nexecutives; or (2) chargeback loss arising from the acceptance of payment cards\\\\nused fraudulently.\\\\nHosted computer systems means:\\\\n1. computers and related peripheral components, including Internet of\\\\nThings (Io T) devices;\\\\n2. systems and applications software including SCADA and Industrial\\\\nControl Systems;\\\\n3. terminal devices;\\\\n4. related communications networks;\\\\n5. mobile devices (handheld and other wireless computing devices); and\\\\n6. storage and back-up devices\\\\nby which electronic data is collected, transmitted, processed, stored, backed up,\\\\nretrieved, and operated by a third party vendor , but only for providing hosted\\\\ncomputer services, including SaaS, IaaS, NaaS and PaaS, to you pursuant to a\\\\nwritten contract.', 'SPECIMENIn this event, we will have the right to withdraw from the further defense of such\\\\nclaim by tendering control of the defense thereof to you. The operation of this\\\\nparagraph will be subject to the Limits of Liability and Retention provisions of this\\\\nPolicy.\\\\n3. The following de ﬁnitions under Section IX, DEFINITIONS are deleted and replaced with the following:\\\\nApplication means all applications, including any attachments thereto and supplemental\\\\ninformation, submitted by or on behalf of the named insured to us in connection\\\\nwith the request for or underwriting of this Policy.\\\\nBusiness interruption loss means:\\\\n1. the net pro ﬁt that would have been earned before taxes on income, or net\\\\nloss that would not have been incurred, directly due to the partial or\\\\ncomplete interruption of computer systems; and\\\\n2. continuing normal operating expenses (including payroll and overtime\\\\nexpense), but only to the extent that such operating expenses must\\\\nnecessarily continue during the indemnity period.\\\\nProvided, however , that business interruption loss will not include net pro ﬁt that\\\\nwould likely have been earned as a result of an increase in volume due to favorable\\\\nbusiness conditions caused by the impact of network security failures impacting\\\\nother businesses, loss of market, or any other consequential loss.\\\\nComputer systems means:\\\\n1. computers and related peripheral components, including Internet of\\\\nThings (Io T) devices;\\\\n2. systems and applications software including SCADA and Industrial\\\\nControl Systems;\\\\n3. terminal devices;\\\\n4. related communications networks;\\\\n5. mobile devices (handheld and other wireless computing devices); and\\\\n6. storage and back-up devices\\\\nby which electronic data is collected, transmitted, processed, stored, backed up,\\\\nretrieved, and operated by you on your own behalf.\\\\nComputer systems includes hosted computer systems.\\\\nData breach means the acquisition, access, theft, or disclosure of personally identiﬁ able\\\\ninformation, payment card information, or third party corporate information, in a\\\\nmanner that is unauthorized by you including resulting from a security failure.\\\\nDigital asset means any of your electronic data, computer software, ﬁrmware, or middleware.\\\\nDigital assets do not include computer hardware of any kind.', 'Cyber terrorism means the premeditated use, or threatened use, of disruptive activities against\\\\ncomputer systems by any person, group, government or organization, committed\\\\nwith the intention to harm or intimidate you to further social, ideological,\\\\nreligious, or political objectives. However , cyber terrorism does not include any\\\\nactivity which is part of or in support of any military action, war , or war-like\\\\noperation.\\\\nExtra expenses means your reasonable and necessary additional costs incurred to avoid or\\\\nminimize a business interruption loss, including:\\\\n1. the reasonable and necessary additional costs of sourcing your products\\\\nor services from alternative sources in order to meet contractual\\\\nobligations to supply your customers and clients;\\\\nCYUSP-00EN-050001- 1022-01 Page 7 of 12', 'SPECIMEN2. the reasonable and necessary additional costs of employing contract staff\\\\nor overtime costs for employees, including your internal IT department, in\\\\norder to continue your business operations which would otherwise have\\\\nbeen handled in whole or in part by computer systems or service\\\\nprovider; and\\\\n3. the reasonable and necessary additional costs of employing specialist\\\\nconsultants, including IT forensic consultants, in order to diagnose and ﬁx\\\\nasecurity failure or systems failure.\\\\nProvided, however , that such additional costs do not exceed the amount of loss\\\\nthat otherwise would have been payable as business interruption loss.\\\\nExtra expenses does not mean and will not include:\\\\n1. costs incurred to update, restore, replace, upgrade, maintain, or improve\\\\ncomputer systems:\\\\na. to a level greater than existed before a security failure , unless\\\\nthe costs to upgrade to a more current or secure version of\\\\nfunctionally equivalent components of computer systems is no\\\\nmore than 25% greater than the costs that would have been\\\\nincurred to repair or replace computer systems that existed\\\\nbefore a security failure; or\\\\nb. to a level greater than existed before a system failure; or\\\\n2. costs incurred to acquire or install computer systems which did not form\\\\na part of computer systems immediately prior to the security failure or\\\\nsystem failure.', 'SPECIMENHosted computer systems means:\\\\n1. computers and related peripheral components, including Internet of\\\\nThings (Io T) devices;\\\\n2. systems and applications software including SCADA and Industrial\\\\nControl Systems;\\\\n3. terminal devices;\\\\n4. related communications networks;\\\\n5. mobile devices (handheld and other wireless computing devices); and\\\\n6. storage and back-up devices\\\\nby which electronic data is collected, transmitted, processed, stored, backed up,\\\\nretrieved, and operated by a third party vendor , but only for providing hosted\\\\ncomputer services, including SaaS, IaaS, NaaS and PaaS, to you pursuant to a\\\\nwritten contract.\\\\nPersonally identi ﬁable\\\\ninformationmeans any information about an individual, independently or in combination, that is\\\\nrequired by any local, state, federal, or foreign law or regulation to be protected\\\\nfrom unauthorized access, acquisition, or public disclosure.\\\\nRegulatory penalties means monetary ﬁnes and penalties, including consumer redress awards,\\\\nimposed in a regulatory proceeding or similar settlement agreement in connection\\\\nwith a potential regulatory proceeding, to the extent insurable under applicable\\\\nlaw.\\\\nRegulatory penalties will not mean any:\\\\n1. costs to comply with injunctive relief;\\\\n2. costs to establish or improve privacy or security practices; or\\\\n3. audit, reporting, or compliance costs.\\\\nAll other terms and conditions of this Policy remain unchanged.\\\\nThis endorsement forms a part of the Policy to which attached, effective on the inception date of the Policy unless\\\\notherwise stated herein.\\\\nCYUSP-00EN-050003- 1022-01 Page 3 of 3', 'Regulatory penalties will not mean any:\\\\n1. costs to comply with injunctive relief;\\\\n2. costs to establish or improve privacy or security practices; or\\\\n3. audit, reporting, or compliance costs.\\\\nCYUSP-00EN-050001- 1022-01 Page 9 of 12', 'SPECIMENPOLICY NO.: «policy.coalition_policy_number» ENDT NO.: «endorsement.index»\\\\nCYBER SELECT COVERAGE ENHANCEMENT ENDORSEMENT\\\\nForm Number CYUSP-00EN-050001- 1022-01\\\\nEffective Date of Endorsement «pretty_date(endorsement.effective_date,»\\\\nNamed Insured «policy.insured.name»\\\\nPolicy Number «policy.coalition_policy_number»\\\\nIssued by (Name of Insurance Company) «,n»\\\\nTHIS ENDORSEMENT CHANGES THE POLICY . PLEASE READ IT CAREFULL Y\\\\nThis endorsement modi ﬁes insurance provided under the following:\\\\n«language.policy_name»\\\\nIn consideration of the premium charged for this Policy, it is hereby understood and agreed that:\\\\n1. SECTION III, EXCLUSIONS – WHA T IS NOT COVERED, Paragraph E, EMPLOYMENT PRACTICES is deleted and\\\\nreplaced with the following:\\\\nE. EMPLOYMENT PRACTICES Any employer-employee relations, policies, practices, acts, or omissions. However ,\\\\nthis exclusion will not apply to a claim by a prospective, current or former\\\\nemployee under Section II.A, NETWORK AND INFORMA TION SECURITY\\\\nLIABILITY , or:\\\\n1. breach response services provided under Section II.F , BREACH\\\\nRESPONSE SERVICES; or\\\\n2. breach response costs provided under Section II.G, BREACH RESPONSE\\\\nCOSTS;\\\\ninvolving a security failure, data breach, cyber extortion, funds transfer fraud, or\\\\nimpersonation fraud, as applicable to coverage Sections II.F and G, that impacts\\\\ncurrent or former employees.\\\\nAdditionally, this exclusion will not apply to a claim brought by a prospective,\\\\ncurrent or former employee under Section E. MUL TIMEDIA CONTENT LIABILITY\\\\nfor misuse of images or likenesses. However , this exception does not apply to any\\\\nclaim involving or related to biometric data as de ﬁned by the Illinois Biometric\\\\nInformation Privacy Act or any similar local, state, federal or foreign regulation or\\\\nstatute.\\\\n2. SECTION III, EXCLUSIONS – WHA T IS NOT COVERED, Paragraph F .', 'SPECIMENThe fact that the time to report claims under this Policy may be extended by virtue\\\\nof an Optional Extended Reporting Period will not in any way increase the Limits of\\\\nLiability, and any amounts incurred during the Optional Extended Reporting Period\\\\nwill be part of, and not in addition to the Limits of Liability as stated in the\\\\nDeclarations. The Optional Extended Reporting Period will be renewable at our\\\\nsole option.\\\\n15. The following de ﬁnitions under SECTION IX, DEFINITIONS are deleted and replaced with the following:\\\\nApplication means all applications, including any attachments thereto and supplemental\\\\ninformation, submitted by or on behalf of the named insured to us in connection\\\\nwith the request for or underwriting of this Policy.\\\\nClaim means:\\\\n1. a written demand for money, services, or injunctive or non-monetary relief\\\\nincluding the service of a suit or institution of arbitration proceedings;\\\\n2. with respect to coverage provided under Section II.B, REGULA TORY\\\\nDEFENSE AND PENAL TIES, a regulatory proceeding;\\\\n3. with respect to coverage under Section II.C, PCI FINES AND\\\\nASSESSMENTS, a written demand for PCI ﬁnes and assessments; and\\\\n4. a written request to toll or waive a statute of limitations applicable to a\\\\npotential claim described in paragraph 1. above.\\\\nAll claims that have a common nexus of fact, circumstance, situation, event,\\\\ntransaction, or cause, or a series of related facts, circumstances, situations,\\\\nevents, transactions, or causes will be considered a single claim made against you\\\\non the date the ﬁrst such claim was made.\\\\nComputer Systems means:\\\\n1. computers and related peripheral components, including Internet of\\\\nThings (Io T) devices;\\\\n2. systems and applications software including SCADA and Industrial\\\\nControl Systems;\\\\n3. terminal devices;\\\\n4. related communications networks;\\\\n5. mobile devices (handheld and other wireless computing devices); and\\\\n6. storage and back-up devices\\\\nby which electronic data is collected, transmitted, processed, stored, backed up,\\\\nretrieved, and operated by you on your own behalf.\\\\nComputer systems includes hosted computer systems.', 'Notwithstanding item 1. above, the Retention applicable to SECTION II.Q,\\\\nFUNDS TRANSFER FRAUD AND SOCIAL ENGINEERING, can be satis ﬁed by\\\\nthe payment of funds transfer loss paid to the named insured under a\\\\ncommercial crime policy, or any other insurance policy provided that the\\\\napplicable limit of liability of such policy is exhausted by the payment of funds\\\\ntransfer loss.\\\\n3. In the event that damages, funds transfer liability loss, PCI ﬁnes and\\\\nassessments, regulatory penalties, claim expenses, breach response costs,\\\\nbreach response services, loss, or other amounts arising out of a claim or\\\\nevent are subject to more than one Retention, the Retention for each applicable\\\\ninsuring agreement will apply separately, provided that the sum of such\\\\nRetention amounts will not exceed the largest applicable Retention amount.\\\\n4. In the event that you elect to use Coalition Incident Response to provide\\\\ncomputer forensic professional services, and Coalition Incident Response is\\\\navailable to provide such services, then any fees, costs and expenses of\\\\nCoalition Incident Response for computer forensic professional services that\\\\nresult in covered breach response costs, claim expenses, cyber extortion\\\\nexpenses, or restoration costs under the terms and conditions of this Policy\\\\nwill not be subject to any Retention.\\\\nCYUSP-00EN-050001- 1022-01 Page 5 of 12']","Can you confirm that if an employee is working from home and computer gets hacked compromising United States Artists info, is there coverage for cyber? Does it matter if they are using their own personal computer vs a business owned computer?","Based on the policy documents, there may be coverage for a cyber event if an employee's computer gets hacked and compromises United States Artists' information. The policy defines ""Computer Systems"" to include various devices and software used to collect, store, and process data on behalf of the insured, whether owned or leased by the insured.\\n\\nHowever, if the compromised device is an employee's personal computer, the situation becomes more complex. The policy states that ""Security failure does not mean and will not include any failure of computers, related peripheral components, or mobile devices that are owned or leased by an employee to the extent that such failure does not affect the business operations of the named insured or a subsidiary."" Therefore, whether the employee's personal computer is covered may depend on whether the failure directly impacts the business operations of United States Artists.\\n\\nFor a business-owned computer, the policy outlines that computer replacement costs are covered if the loss of integrity in the firmware of any computer systems due to a security failure is discovered during the policy period.\\n\\nIn summary, the type of device (personal vs. business-owned) might influence the coverage, particularly in terms of whether the security failure impacts business operations.","Based on the policy documents, coverage for a cyber incident involving an employee working from home would depend on the definition of ""computer systems"" and the specifics of the policy coverage.
+
+The term ""computer systems"" includes both business-owned and hosted computer systems, which are defined as:
+1. Computers and related peripheral components, including Internet of Things (IoT) devices;
+2. Systems and applications software including SCADA and Industrial Control Systems;
+3. Terminal devices;
+4. Related communications networks;
+5. Mobile devices (handheld and other wireless computing devices); and
+6. Storage and back-up devices.
+
+These systems can be operated by the insured on their own behalf or by a third-party vendor providing hosted computer services under a written contract.
+
+However, the policy does not explicitly mention personal computers owned by employees. Therefore, if the employee is using their own personal computer, it may not be covered unless it falls under the definition of ""computer systems"" as outlined in the policy.
+
+If the compromised computer is a business-owned computer or a hosted computer system as defined, then there would likely be coverage for the cyber incident. If it is a personal computer, coverage may not be guaranteed unless it is explicitly included in the policy's definition of covered computer systems.","Hi Tony,
+
+Personal devices are covered when used for business purposes.
+
+The definition of computer systems includes computers, mobile devices, etc operated by ""you"" on your own behalf. ""You"" includes employees ""but only while acting on behalf of the named insured or subsidiary and in the scope of the business operations of the named insured or subsidiary.""
+
+Here are a few blog posts we've published recently; How your company can stay productive & secure while working remotely (2 posts):
+
+Post 1
+
+Post 2
+
+Feel free to pass these posts along.
+
+Best,
+
+Bryan",,Yes,Yes,"### Category:
+Can be answered with documents
+
+### Justification:
+The email query from Tony Spirovski specifically asks whether there is coverage for a cyber incident involving an employee working from home, where the employee's computer gets hacked, potentially compromising sensitive information. Furthermore, the query requests clarification on whether the type of computer (personal vs. business-owned) affects the coverage. These questions directly relate to the specifics of what is covered under a cyber insurance policy and under what circumstances, which are typically detailed in the policy documents.
+
+### Potential Document:
+The appropriate document to answer this query would be the cyber insurance policy document, specifically ""Policy C-4LQT-064011-CYBER-2023"" mentioned in the original message. This document likely contains definitions, inclusions, exclusions, and conditions that apply to cyber insurance coverage, which can provide the necessary information to address the query about coverage specifics related to working from home and the type of computer used.",normal,closed,renewals@coalitioninc.com,1268841149770,1268841149770,4501406464027,6157100432795.0,10429086656667,,False,True,4565964437403,1260802700910,,,,,Apogee Insurance Group,4000000.0,4000000.0,<=$100MM,True,,"[
+  ""csat_survey_sent"",
+  ""policy-questions"",
+  ""south_east_5_-_bd"",
+  ""1"",
+  ""quote_servicing::coverage_question"",
+  ""csat_cycle_stop"",
+  ""tier_2"",
+  ""pa""
+]","[
+  ""1"",
+  ""agency"",
+  ""country:us"",
+  ""tier_3"",
+  ""wholesale""
+]","[
+  ""renewal-30d-sla""
+]",renewal-30d-sla,Servicing,Renewal 30 Days,"[
+  ""1"",
+  ""csat_cycle_stop"",
+  ""csat_survey_sent"",
+  ""pa"",
+  ""policy-questions"",
+  ""quote_servicing::coverage_question"",
+  ""south_east_5_-_bd"",
+  ""tier_2"",
+  ""csat_survey_pending"",
+  ""agency"",
+  ""auto-renewal"",
+  ""control_policyholder"",
+  ""country:us"",
+  ""renewal-30d-sla"",
+  ""wholesale"",
+  ""tier_3""
+]","[
+  ""policy-questions"",
+  ""auto-renewal"",
+  ""renewal-30d-sla""
+]",policy-questions,Servicing,Coverage Questions,https://help.coalitioninc.com,Servicing,True,enabled,True,coalition,True,US-Canada Quote & Policy Servicing,2022-11-16T01:22:56.000Z,2023-10-18T16:15:26.000Z,https://coalition.zendesk.com/api/v2/groups/10429086656667.json,https://coalition.zendesk.com/api/v2/organizations/6157100432795.json,Apogee Insurance Group,2022-05-24T16:41:42.000Z,2024-01-26T21:34:47.000Z,,,,,https://coalition.zendesk.com/api/v2/users/1268841149770.json,https://coalition.zendesk.com/api/v2/users/1268841149770.json,https://coalition.zendesk.com/api/v2/users/4501406464027.json,Tony Spirovski,Tony Spirovski,Bryan Austin,tspirovski@apogeeinsgroup.com,tspirovski@apogeeinsgroup.com,bryan@coalitioninc.com,2022-05-13T16:16:29.000Z,2022-05-13T16:16:29.000Z,2022-03-01T15:26:20.000Z,2024-06-17T15:09:54.000Z,2024-06-17T15:09:54.000Z,2024-06-20T17:56:21.000Z,Pacific Time (US & Canada),Pacific Time (US & Canada),Pacific Time (US & Canada),,,,en-US,en-US,en-US,end-user,end-user,agent,False,False,True,True,True,True,,,2024-06-20T13:02:27.000Z,,,,False,False,False,https://coalition.zendesk.com/api/v2/satisfaction_ratings/23742716732827.json,offered,,No reason provided,2024-03-12T17:31:56.001Z,2024-03-12T17:31:56.001Z,2024-03-12T17:31:56.001Z,2024-03-12T17:31:56.001Z,2024-03-26T18:04:50.000Z,True,False,2024-03-12T17:31:56.000Z,2024-03-12T17:31:56.000Z,2024-03-14T21:50:56.000Z,2024-03-07T23:50:56.000Z,2024-03-21T21:50:56.000Z,2024-03-12T21:50:56.000Z,2024-03-17T21:50:56.000Z,2024-03-11T21:50:56.000Z,2024-03-14T21:50:56.000Z,2024-03-07T23:50:56.000Z,2024-03-21T21:50:56.000Z,2024-03-12T21:50:56.000Z,2024-03-17T21:50:56.000Z,2024-03-11T21:50:56.000Z,C-4LQT-064011-CYBER-2023,C-4LQT-064011-CYBER-2023,C-4LQT-064011-CYBER-2024-01,False,,,,,False,TICKET_BATCH-676697,2024-03-07T21:50:56.000Z,1,"[
+  676697
+]","[
+  ""csat_cycle_stop"",
+  ""tier_2"",
+  ""policy-questions"",
+  ""pa"",
+  ""quote_servicing::coverage_question"",
+  ""1"",
+  ""south_east_5_-_bd"",
+  ""csat_survey_sent""
+]",1,"[
+  5438751
+]","[
+  ""d6cc3ca8-e88b-435a-af46-5fc3f718fe3b""
+]",2023-12-03T11:33:07.730Z,,2024-01-03T17:40:17.872Z,2024-03-11T17:50:47.579Z,True,False,False,,2700430.0,5875830.0,2700430.0,True,4000000.0,Micro SME,COALITION_AUTO_CREATED,True,3179.0,3179.0,3179.0,56.0,8ef75054-56aa-446e-92f5-7f17700d0cfe,Apogee Insurance Group,Apogee Insurance Group,423.0,4e3ff9cf-4638-477b-a90a-56061a7eba65,Corey MacDonald,US,PA,df132bd8-b28d-45d5-98b0-3014481bb4d0,False,[],2024-04-01,2024-04-01,2024-04-01,2025-04-01,1.0,SURPLUS,Bryan's Team,Bryan Austin,,,,,Chat CSAT,,,No reason provided,295,0,1,243660,243660,243660,0,416460.0,416460,416460,True,True,True,True,True,True,639.0,1051.933333,False,True,quote_servicing,coverage_question,,,Andrew Davis,,south_east_5_-_bd,pa,2,"All claims that have a common nexus of fact, circumstance, situation, event,
+transaction, or cause, or a series of related facts, circumstances, situations,
+events, transactions, or causes will be considered a single claim made against you
+on the date the ﬁrst such claim was made.
+Computer Systems means:
+1. computers and related peripheral components, including Internet of
+Things (Io T) devices;
+2. systems and applications software including SCADA and Industrial
+Control Systems;
+3. terminal devices;
+4. related communications networks;
+5. mobile devices (handheld and other wireless computing devices); and
+6. storage and back-up devices
+by which electronic data is collected, transmitted, processed, stored, backed up,
+retrieved, and operated by you on your own behalf.
+Computer systems includes hosted computer systems.
+Cyber terrorism means the premeditated use, or threatened use, of disruptive activities against
+computer systems by any person, group, government or organization, committed
+with the intention to harm or intimidate you to further social, ideological,
+religious, or political objectives. However , cyber terrorism does not include any
+activity which is part of or in support of any military action, war , or war-like
+operation.
+Security failure does not mean and will not include any failure of computers,
+related peripheral components, or mobile devices that are owned or leased by an
+employee to the extent that such failure does not affect the business operations
+of the named insured or a subsidiary.
+Senior executive means any general counsel, risk manager , chief information of ﬁcer , chief
+information security of ﬁcer , chief ﬁnancial of ﬁcer , chief executive of ﬁcer or
+functional equivalent, but only while acting on your behalf in the scope of your
+business operations.
+Subsidiary means any organization in which the named insured:
+1. owns or controls either directly or indirectly, on or before the inception
+date of this Policy, 50% or more of the outstanding voting stock or
+shareholder voting power , or has the right to elect or appoint the majority
+of the board of directors or persons to an equivalent executive
+management function; and
+2. has recognized the revenues in the application for this Policy.
+COMPUTER REPLACEMENT [xx] [xx]
+2. Section II, FIRST P AR TY COVERAGES is amended by the addition of the
+following insuring agreement:
+CR. COMPUTER
+REPLACEMENTW e will pay on your behalfcomputerreplacementcosts thatyou
+incur as a result of the loss of integrity in the firmware of any
+computersystemsyou own or lease due to a securityfailure first
+discovered by you during the policyperiod.
+3. Section IX, DEFINITIONS is amended by the addition of the following definition:
+P 17 514 0419 S P age 1 of 2
+SPECIMENComputer replacement costs means the reasonable and necessary costs you incur , with our prior
+written consent, to restore or replace those computer systems
+directly impacted by a securityfailure.
+Computer replacement costs do not include breach responses costs,
+business interruption loss, crisis management costs, cyber extortion
+expenses, extraexpenses, fundstransferloss, or restorationcosts.
+4.
+SECTION IX DEFINITIONS, Cyber extortion is deleted and replaced with the following:
+Cyber extortion meansanythreatmadebyanindividualororganization
+againstyouexpressingtheintentto:
+1.transfer,pay,ordeliveranyfundsorproperty
+belongingto you,orheldby youonbehalfof
+others,usinga computersystem withoutyour
+permission,authorization,orconsent;
+2.alter,damage,ordestroyanycomputer
+program,so ware,orotherelectronicdatathat
+isstoredwithina computersystem;
+3.maliciouslyorfraudulentlyintroduce malicious
+codeorransomware intoacomputersystem;
+or
+C Y B S 0027 1 121 P age 2 of 3
+SPECIMEN4.initiateadenialofserviceattack ona
+computersystem;
+wheresuchthreatismadeforthepurposeofdemanding
+paymentofmoney,securities,Bitcoin,orothervirtual
+currenciesfrom you.
+Cyberextortion doesnotinclude information
+disclosureextortion.
+All other terms and conditions of this Policy remain unchanged.
+transmission
+of
+malicious
+code
+from
+computer
+systems
+to
+third
+party 
+computer
+systems
+that
+are
+not
+owned,
+operated,
+or
+controlled
+by
+the 
+named
+insured
+or
+subsidiary
+; 
+4.
+a
+denial
+of
+service
+attack
+on
+the
+named
+insured's
+or
+subsidiary's 
+computer
+systems
+;
+or 
+5.
+access
+to
+or
+use
+of
+computer
+systems
+in
+a
+manner
+that
+is
+not 
+authorized
+by
+you
+,
+including
+when
+resulting
+from
+the
+the 
+of
+a 
+password
+2.
+transmission
+of
+malicious
+code
+from
+computer
+systems
+to
+third
+party 
+computer
+systems
+that
+are
+not
+owned,
+operated,
+or
+controlled
+by
+the 
+named
+insured
+or
+subsidiary
+; 
+4.
+a
+denial
+of
+service
+attack
+on
+the
+named
+insured's
+or
+subsidiary's 
+computer
+systems
+;
+or 
+5.
+access
+to
+or
+use
+of
+computer
+systems
+in
+a
+manner
+that
+is
+not
+authorized 
+by
+you
+,
+including
+when
+resulting
+from
+the
+the 
+of
+a
+password
+2.
+4. In the event that you elect to use Coalition Incident Response to provide
+computer forensic professional services, and Coalition Incident Response is
+available to provide such services, then any fees, costs and expenses of
+Coalition Incident Response for computer forensic professional services that
+result in covered breach response costs, claim expenses, cyber extortion
+expenses, or restoration costs under the terms and conditions of this Policy
+will not be subject to any Retention.
+CYUSP-00EN-050001- 1022-01 Page 5 of 12
+SPECIMEN13. The second paragraph of SECTION VII, CANCELLA TION AND OPTIONAL EXTENDED REPORTING PERIOD,
+CANCELLA TION AND NON-RENEW AL is deleted and replaced with the following:
+This Policy may be cancelled by us for non-payment of premium, or for fraud by you or material
+misrepresentation by a senior executive in the application or other information provided to induce us to issue this
+Policy; or fraud by you in connection with the submission of any claim or event for coverage under this Policy.
+14. SECTION VII, CANCELLA TION AND OPTIONAL EXTENDED REPORTING PERIOD,
+C Y U S P -50E N -000003-1022-01 P age 1 of 3
+SPECIMEN2. SECTION III, EXCLUSIONS - WHA T IS NOT COVERED, is amended by the
+addition of the following exclusion:
+FRANCHISOR
+EXCLUSIONAny actual or alleged act, error , or omission committed by or on behalf
+of anyfranchisor, including the failure to provide hosted computer
+application services to you.
+However , this exclusion will not apply to: (i) a franchisorsecurity
+failure, provided that such franchisorsecurityfailure impacts only
+you, and not any other franchisee or third party; or (ii) a systems
+failure caused by a franchisorsystemsfailure.
+3. SECTION IX, DEFINITIONS, is amended by adding the following to the definition of
+Databreach:
+Data breach does not include the acquisition, access, theft, or disclosure of
+personally identifiable information or other information in the care, custody or
+control of a franchisor.
+4.
+Computer replacement costs do not include breach responses costs,
+business interruption loss, crisis management costs, cyber extortion
+expenses, extraexpenses, fundstransferloss, or restorationcosts.
+4. For purposes of the coverage provided under this Endorsement only , the
+definitions of “Computer systems” and “Loss” in Section IX, DEFINITIONS are
+deleted and replaced with the following:
+Computer systems means:
+1. computers and related peripheral components, including
+Internet of Things (IoT) devices;
+2. systems and applications software;
+3. terminal devices;
+4. related communications networks;
+5. mobile devices (handheld and other wireless computing
+devices); and
+6. storage and back-up devices
+by which electronic data is collected, transmitted, processed, stored,
+backed up, retrieved, and which are owned by you.
+Loss meansbreachresponsecosts, businessinterruptionloss, crisis
+managementcosts, cyberextortionexpenses, extraexpenses, funds
+transferloss, restorationcosts, and computerreplacementcosts.
+5. Paragraph T .
+legal fees and expenses to advise you in complying with
+Payment Card Industry (""PCI"") operating regulation
+requirements for responding to a securityfailure ordata
+breach compromising payment card data, and the related
+requirements under a merchantservicesagreement (this
+clause does not include any fees or expenses incurred in any
+legal proceeding, arbitration, or mediation, for any advice in
+complying with any PCI rules or regulations other than for
+assessment of PCIfinesandassessments for a covered
+securityfailure ordatabreach, or to remediate the breached
+computersystems); and
+6. costs to provide up to one year (or longer if required by law)
+of a credit or identity monitoring program to individuals
+af fected by such securityfailure ordatabreach.
+Breachresponsecosts must be incurred within one year of your
+discovery of an actual or suspected securityfailure ordatabreach.
+You haveour prior consent to incur breachresponsecosts in the form
+of computer forensic fees under paragraph 1. and legal fees under
+paragraphs 4. and 5. with any vendor on our list of Panel Providers.
+You may use scheduledresponse vendors in addition to our Panel
+Providers.","['3. For the purposes of the business interruption and extra expenses coverage provided under Insuring Agreement J.\\\\nDIRECT AND CONTINGENT BUSINESS INTERRUPTION, AND EXTRA EXPENSES FROM SECURITY FAILURE AND\\\\nSYSTEMS FAILURE only, the deﬁnitions of “Computer Systems” and “Systems Failure ” under Section IX,\\\\nDEFINITIONS are deleted and replaced with the following:\\\\nComputer systems means:\\\\n1. computers and related peripheral components, including Internet of Things\\\\n(Io T) devices;\\\\n2. systems and applications software;\\\\n3. terminal devices;\\\\n4. related communications networks;\\\\n5. mobile devices (handheld and other wireless computing devices); and\\\\n6. storage and back-up devices\\\\nby which electronic data is collected, transmitted, processed, stored, backed up,\\\\nretrieved, and operated by you on your own behalf.\\\\nComputer systems includes:\\\\na. hosted computer systems;\\\\nb. items 1-6 above that are operated by a scheduled non-IT vendor; or\\\\nc. items 1-6 above that are operated by an unscheduled non-IT vendor.', '3. For the purposes of the business interruption andextra expenses coverage\\\\nprovided under Insuring Agreement H. BUSINESS INTERRUPTION and EXTRA\\\\nEXPENSE only , the definitions of “Computer Systems” and “Systems Failure”\\\\nunder Section IX, DEFINITIONS are deleted and replaced with the following:\\\\nComputer systems means:\\\\n1. computers and related peripheral components, including\\\\nInternet of Things (IoT) devices;\\\\n2. systems and applications software;\\\\n3. terminal devices;\\\\n4. related communications networks;\\\\n5. mobile devices (handheld and other wireless computing\\\\ndevices); and\\\\n6. storage and back-up devices\\\\nby which electronic data is collected, transmitted, processed, stored,\\\\nbacked up, retrieved, and operated by you onyour own behalf.\\\\nComputersystems also includes items 1-6 above that are operated\\\\nby:\\\\na. a third-party vendor but only for providing hosted\\\\ncomputer application services to you;\\\\nb. a schedulednon-ITvendor; or\\\\nc. an unschedulednon-ITvendor.', '3. For the purposes of the business interruption andextra expenses coverage\\\\nprovided under Insuring Agreement H. BUSINESS INTERRUPTION and EXTRA\\\\nEXPENSE only, the definitions of “Computer Systems” and “Systems Failure”\\\\nunder Section IX, DEFINITIONS are deleted and replaced with the following:\\\\nComputer systems means:\\\\n1. computers and related peripheral components, including\\\\nInternet of Things (IoT) devices;\\\\n2. systems and applications software;\\\\n3. terminal devices;\\\\n4. related communications networks;\\\\n5. mobile devices (handheld and other wireless computing\\\\ndevices); and\\\\n6. storage and back-up devices\\\\nby which electronic data is collected, transmitted, processed, stored,\\\\nbacked up, retrieved, and operated by you onyour own behalf.\\\\nComputersystems also includes items 1-6 above that are operated\\\\nby:\\\\na. a third-party vendor but only for providing hosted\\\\ncomputer application services to you;\\\\nb. a schedulednon-ITvendor; or\\\\nc. an unschedulednon-ITvendor.', 'Hosted computer systems means:\\\\n1. computers and related peripheral components, including Internet of\\\\nThings (Io T) devices;\\\\n2. systems and applications software including SCADA and Industrial\\\\nControl Systems;\\\\n3. terminal devices;\\\\n4. related communications networks;\\\\n5. mobile devices (handheld and other wireless computing devices); and\\\\n6. storage and back-up devices\\\\nby which electronic data is collected, transmitted, processed, stored, backed up,\\\\nretrieved, and operated by a third party vendor , but only for providing hosted\\\\ncomputer services, including SaaS, IaaS, NaaS and PaaS, to you pursuant to a\\\\nwritten contract.\\\\nInsured, you, or your means:\\\\n1. the named insured;\\\\n2. a subsidiary;\\\\n3. senior executives and employees;\\\\n4. an independent contractor , who is a natural person, solely acting in the\\\\nnormal course of the named insured or subsidiary’s business operations\\\\nwhile under their direct supervision;\\\\n5. with respect to Sections II.A, NETWORK AND INFORMA TION SECURITY\\\\nLIABILITY , II.B, REGULA TORY DEFENSE AND PENAL TIES, and II.E,\\\\nMUL TIMEDIA CONTENT LIABILITY ,', 'Provided, however , that business interruption loss will not include net pro ﬁt that\\\\nwould likely have been earned as a result of an increase in volume due to favorable\\\\nbusiness conditions caused by the impact of network security failures impacting\\\\nother businesses, loss of market, or any other consequential loss.\\\\nComputer systems means:\\\\n1. computers and related peripheral components, including Internet of\\\\nThings (Io T) devices;\\\\n2. systems and applications software including SCADA and Industrial\\\\nControl Systems;\\\\n3. terminal devices;\\\\n4. related communications networks;\\\\n5. mobile devices (handheld and other wireless computing devices); and\\\\n6. storage and back-up devices\\\\nby which electronic data is collected, transmitted, processed, stored, backed up,\\\\nretrieved, and operated by you on your own behalf.\\\\nComputer systems includes hosted computer systems.\\\\nData breach means the acquisition, access, theft, or disclosure of personally identiﬁ able\\\\ninformation, payment card information, or third party corporate information, in a\\\\nmanner that is unauthorized by you including resulting from a security failure.\\\\nDigital asset means any of your electronic data, computer software, ﬁrmware, or middleware.\\\\nDigital assets do not include computer hardware of any kind.', 'Bid solicitation deadline The date stipulated in the request for proposal as the deadline for\\\\nsubmitting the proposer ’ s bid or tender .\\\\n6. The following definitions under SECTION IX, DEFINITIONS are deleted and\\\\nreplaced with the following:\\\\nCom puter system s means:\\\\n1. computers and related peripheral\\\\ncomponents, including Internet of Things (IoT)\\\\ndevices;\\\\n2. systems and applications software;\\\\n3. industrial control and supervisory control\\\\nand data acquisition (SCADA) systems;\\\\n4. terminal services\\\\n5. related communications networks;\\\\n6. mobile devices (handheld and other wireless\\\\ncomputing devices); and\\\\n7. storage and back-up devices\\\\nby which electronic data is collected, transmitted, processed, stored,\\\\nbacked up, retrieved, and operated by you onyour own behalf.\\\\nComputersystems also includes:\\\\n1 items 1. to 6. above that are operated by a\\\\nthird-party vendor , but only for providing hosted\\\\ncomputer application services to you pursuant to a\\\\nwritten contract.', 'Digital asset means any of your electronic data, computer software, ﬁrmware, or middleware.\\\\nDigital assets do not include computer hardware of any kind.\\\\nCYUSP-00EN-050003- 1022-01 Page 2 of 3\\\\nSPECIMENHosted computer systems means:\\\\n1. computers and related peripheral components, including Internet of\\\\nThings (Io T) devices;\\\\n2. systems and applications software including SCADA and Industrial\\\\nControl Systems;\\\\n3. terminal devices;\\\\n4. related communications networks;\\\\n5. mobile devices (handheld and other wireless computing devices); and\\\\n6. storage and back-up devices\\\\nby which electronic data is collected, transmitted, processed, stored, backed up,\\\\nretrieved, and operated by a third party vendor , but only for providing hosted\\\\ncomputer services, including SaaS, IaaS, NaaS and PaaS, to you pursuant to a\\\\nwritten contract.\\\\nPersonally identi ﬁable\\\\ninformationmeans any information about an individual, independently or in combination, that is\\\\nrequired by any local, state, federal, or foreign law or regulation to be protected\\\\nfrom unauthorized access, acquisition, or public disclosure.', 'Security failure does not mean and will not include any failure of computers,\\\\nrelated peripheral components, or mobile devices that are owned or leased by an\\\\nemployee to the extent that such failure does not affect the business operations\\\\nof the named insured or a subsidiary.\\\\nSenior executive means any general counsel, risk manager , chief information of ﬁcer , chief\\\\ninformation security of ﬁcer , chief ﬁnancial of ﬁcer , chief executive of ﬁcer or\\\\nfunctional equivalent, but only while acting on your behalf in the scope of your\\\\nbusiness operations.\\\\nSubsidiary means any organization in which the named insured:\\\\n1. owns or controls either directly or indirectly, on or before the inception\\\\ndate of this Policy, 50% or more of the outstanding voting stock or\\\\nshareholder voting power , or has the right to elect or appoint the majority\\\\nof the board of directors or persons to an equivalent executive\\\\nmanagement function; and\\\\n2. has recognized the revenues in the application for this Policy.', 'Computer replacement costs do not include breach responses costs,\\\\nbusiness interruption loss, crisis management costs, cyber extortion\\\\nexpenses, extraexpenses, fundstransferloss, or restorationcosts.\\\\n4. For purposes of the coverage provided under this Endorsement only , the\\\\ndefinitions of “Computer systems” and “Loss” in Section IX, DEFINITIONS are\\\\ndeleted and replaced with the following:\\\\nComputer systems means:\\\\n1. computers and related peripheral components, including\\\\nInternet of Things (IoT) devices;\\\\n2. systems and applications software;\\\\n3. terminal devices;\\\\n4. related communications networks;\\\\n5. mobile devices (handheld and other wireless computing\\\\ndevices); and\\\\n6. storage and back-up devices\\\\nby which electronic data is collected, transmitted, processed, stored,\\\\nbacked up, retrieved, and which are owned by you.\\\\nLoss meansbreachresponsecosts, businessinterruptionloss, crisis\\\\nmanagementcosts, cyberextortionexpenses, extraexpenses, funds\\\\ntransferloss, restorationcosts, and computerreplacementcosts.\\\\n5. Paragraph T .', '4. For purposes of this endorsement only , the following definitions are added to\\\\nSection IX, Definitions:\\\\nScheduled non-IT\\\\nvendormeans an entity listed in the Schedule of Non-IT Providers below\\\\nthat provides services or products to you, pursuant to a written\\\\ncontract, other than hosted computer application services you use\\\\nregularly in the normal course of your business.\\\\nSchedule of Non-IT V endors\\\\n1. Not Applicable\\\\n2. Not Applicable\\\\nUnscheduled non-IT\\\\nvendormeans an entity , other than an insured, not listed in the Schedule of\\\\nNon-IT Providers that provides services or products to you, pursuant\\\\nto a written contract, other than hosted computer application services\\\\nyou use regularly in the normal course of your business.\\\\nIn no event will any entity be considered an unschedulednon-IT\\\\nvendor to the extent that it operates as:\\\\n1. a public utility (including without limitation, a provider or\\\\nelectricity , gas, water , or telecommunications services);\\\\n2. an internet service provider (including any provider of\\\\ninternet connectivity); or\\\\nS P 18 135 0120 P age 4 of 4\\\\nSPECIMEN3.']"
+,https://coalition.zendesk.com/api/v2/tickets/672577.json,email,2024-03-05T17:48:00.000Z,2024-03-05T17:48:00.000Z,2024-03-29T16:10:45.685Z,task,672577,FW: Lucky Seat Insurance - Questions,"The Insured’s in house counsel has a few questions on their policy, please advise back ASAP:
+
+ 
+
+ 
+
+I have some questions about our cyber policy in connection with an agreement we are working on. We would like to make sure that we make accurate representations.  Could you please confirm or clarify the bullets below?
+
+ 
+
+* Copyright infringement does not include coverage for infringement of software
+* The policy does not allow for waiver of subrogation and instead requires us to do everything necessary to preserve subrogation rights.
+* The insurance companies is qualified to do business in the State of Georgia with ratings of “A-VIII” or better in the latest edition of the A.M. Best key rating guide
+
+ 
+
+ 
+
+
+
+Best Regards,
+Lynn Mirabella
+ARC Excess & Surplus, LLC
+113 South Service Rd.
+
+Jericho, NY 11753           
+Phone: 516-408-5728
+Cell: 516-446-1563
+
+www.arcbrokers.com (http://www.arcbrokers.com/)
+
+CA Individual License No. 4266619
+
+ARC CA License No. 0C04809
+
+dba Delaware ARC Insurance Agency
+
+ 
+
+This message and its attachments may contain information that is proprietary, confidential and/or privileged.  If you are not the intended recipient, any use, copying, disclosure or distribution or the taking of any action in reliance upon this information is strictly prohibited.  If you are not the intended recipient, please delete the message and attachments, destroy all copies and notify the sender immediately.  Nothing in this email or its attachments is intended to provide legal, financial or tax advice, and recipients are advised to consult with their appropriate advisors regarding any legal, financial or tax implications.","['SPECIMENFILING POLICY NO.: [X-XXXX-XXXXXX-CYBER-XXXX]\\\\nENDT NO.: [XX]\\\\nW AIVER OF SUBROGA TION PER CONTRACT ENDORSEMENT\\\\nForm Number CYCAP-00EN-000009-0123-01\\\\nEf fective Date of\\\\nEndorsement[XXX]\\\\nNamed Insured [XXX]\\\\nFiling Policy Number [XXXX]\\\\nIssued by\\\\n(Name of Insurance\\\\nCompany)[NAME OF INSURANCE COMP ANIES]\\\\nTHIS ENDORSEMENT CHANGES THE POLICY. PLEASE READ IT CAREFULL Y\\\\nThis endorsement modifies insurance provided under the following:\\\\nCOALITION CYBER AND TECHNOLOGY POLICY 2.0\\\\nIn consideration of the premium charged for this Policy , it is hereby understood and\\\\nagreed that:\\\\nSECTION IV , YOUR OBLIGA TIONS AS AN INSURED, OBLIGA TION T O PRESER VE\\\\nOUR RIGHT OF SUBROGA TION is amended by the addition of the following:\\\\nT his obligation does not apply to the person(s) or organization(s) in the below Schedule,\\\\nbut only to the extent that the right to subrogate is waived by you under a written contract\\\\nwith that person or organization prior to the event or other circum stances giving rise to the\\\\nclaim ,loss,breach response costs, breach response services, regulatory penalties, or PCI\\\\nfinesandassessments.\\\\nSchedule\\\\n[Nam e of person(s)]\\\\n[Nam e of organization(s)]\\\\nAll other terms and conditions of this Policy remain unchanged.\\\\nC Y C A P -00E N -000009-0123-01 P age 1 of 1', 'This\\\\nendorsement\\\\nmodifies\\\\ninsurance\\\\nprovided\\\\nunder\\\\nthe\\\\nfollowing:\\\\nCOALITION\\\\nCYBER\\\\nPOLICY\\\\nIn\\\\nconsideration\\\\nof\\\\nthe\\\\npremium\\\\ncharged\\\\nfor\\\\nthis\\\\nPolicy ,\\\\nit\\\\nis\\\\nhereby\\\\nunderstood\\\\nand \\\\nagreed\\\\nthat:\\\\nSECTION\\\\nIV ,\\\\nYOUR\\\\nOBLIGA TIONS\\\\nAS\\\\nAN\\\\nINSURED,\\\\nOBLIGA TION\\\\nT O\\\\nPRESER VE\\\\nOUR\\\\nRIGHT\\\\nOF\\\\nSUBROGA TION\\\\nis\\\\ndeleted\\\\nand\\\\nreplaced\\\\nwith\\\\nthe\\\\nfollowing:\\\\nO B L I G A T I O N\\\\nT O \\\\nP R E S E R V E\\\\nO U R\\\\nR I G H T \\\\nO F\\\\nS U B R O G A T I O N\\\\nI n\\\\nt h e\\\\ne v e n t\\\\no f\\\\na n y\\\\np a y m e n t\\\\nb y\\\\nus\\\\nu n d e r\\\\nt h i s\\\\nP o l i c y ,\\\\nwe\\\\nw i l l\\\\nb e\\\\ns u b r o g a t e d\\\\nt o\\\\na l l\\\\no f\\\\nyour\\\\nr i g h t s\\\\no f\\\\nr e c o v e r y .\\\\nYou\\\\nw i l l\\\\nd o\\\\ne v e r y t h i n g\\\\nn e c e s s a r y\\\\nt o\\\\ns e c u r e\\\\na n d\\\\np r e s e r v e\\\\ns u c h\\\\ns u b r o g a t i o n\\\\nr i g h t s ,\\\\ni n c l u d i n g\\\\nt h e\\\\ne x e c u t i o n\\\\no f\\\\na n y\\\\nd o c u m e n t s\\\\nn e c e s s a r y\\\\nt o\\\\ne n a b l e\\\\nus\\\\nt o\\\\nb r i n g\\\\ns u i t\\\\ni n\\\\nyour\\\\nn a m e .', 'You\\\\nw i l l\\\\nn o t\\\\nd o\\\\na n y t h i n g\\\\na f t e r\\\\na n\\\\nincident\\\\no r\\\\ne v e n t\\\\ng i v i n g\\\\nr i s e\\\\nt o\\\\na\\\\nclaim\\\\no r\\\\nloss\\\\nt o\\\\np r e j u d i c e\\\\ns u c h\\\\ns u b r o g a t i o n\\\\nr i g h t s\\\\nw i t h o u t\\\\nf i r s t\\\\no b t a i n i n g\\\\nour\\\\nc o n s e n t .\\\\nT h i s\\\\no b l i g a t i o n\\\\nd o e s\\\\nn o t\\\\na p p l y\\\\nt o\\\\nt h e\\\\ne x t e n t\\\\nt h a t\\\\nt h e\\\\nr i g h t\\\\nt o\\\\ns u b r o g a t e\\\\ni s\\\\nw a i v e d\\\\nb y\\\\nyou\\\\nu n d e r\\\\na\\\\nw r i t t e n\\\\nc o n t r a c t\\\\nw i t h\\\\nt h a t\\\\np e r s o n\\\\no r\\\\no r g a n i z a t i o n ,\\\\np r i o r\\\\nt o\\\\nt h e\\\\nincident\\\\no r\\\\ne v e n t\\\\ng i v i n g\\\\nr i s e\\\\nt o\\\\nt h e\\\\nclaim\\\\no r\\\\nloss\\\\nAll\\\\nother\\\\nterms\\\\nand\\\\nconditions\\\\nof\\\\nthis\\\\nPolicy\\\\nremain\\\\nunchanged.\\\\nThis\\\\nendorsement\\\\nforms\\\\na\\\\npart\\\\nof\\\\nthe\\\\nPolicy\\\\nto\\\\nwhich\\\\nattached,\\\\nef fective\\\\non\\\\nthe \\\\ninception\\\\ndate\\\\nof\\\\nthe\\\\nPolicy\\\\nunless\\\\notherwise\\\\nstated\\\\nherein.\\\\nS P\\\\n1 5\\\\n8 1 0\\\\n0 3 1 8\\\\nP a g e\\\\n1\\\\no f\\\\n1', 'SPECIMEN[Insert Agency Branding]\\\\nFILING POLICY NO.: XXXXXXXXX ENDT NO.: XX\\\\nW AIVER OF SUBROGA TION ENDORSEMENT\\\\nForm Number SP 15 456 01 18\\\\nEf fective Date of\\\\nEndorsementXXXXXX XX, XXXX\\\\nNamed Insured XXXXXXXX\\\\nFiling Policy Number X-XXXX-XXXXXX-XXXXX-XXXX\\\\nIssued by\\\\n(Name of Insurance\\\\nCompany)[INSURANCE COMP ANY]\\\\nTHIS ENDORSEMENT CHANGES THE POLICY . PLEASE READ IT CAREFULL Y .\\\\nThis endorsement modifies insurance provided under the following:\\\\nCOALITION CYBER POLICY\\\\nIn consideration of the premium charged for this Policy , it is hereby understood and\\\\nagreed that:\\\\nSECTION IV , YOUR OBLIGA TIONS AS AN INSURED, OBLIGA TION T O PRESER VE\\\\nOUR RIGHT OF SUBROGA TION is deleted and replaced with the following:\\\\nOBLIGA TION T O\\\\nPRESER VE OUR RIGHT\\\\nOF SUBROGA TIONIn the event of any payment by us under this Policy , we will be\\\\nsubrogated to all of your rights of recovery . You will do everything\\\\nnecessary to secure and preserve such subrogation rights, including\\\\nthe execution of any documents necessary to enable us to bring suit\\\\ninyour name.You will not do anything after an incident or event\\\\ngiving rise to a claim orloss to prejudice such subrogation rights\\\\nwithout first obtaining our consent.\\\\nThis obligation does not apply to the person(s) or organization(s) in\\\\nthe attached schedule, but only to the extent that the right to\\\\nsubrogate is waived by you under a written contract with that person\\\\nor organization, prior to the incident or event giving rise to the claim\\\\norloss\\\\nSchedule\\\\nName of person(s)\\\\nName of organization(s)\\\\nAll other terms and conditions of this Policy remain unchanged.\\\\nS P 15 456 01 18 P age 1 of 1', 'Where\\\\nloss\\\\nto\\\\nthe\\\\nfinancial\\\\ninterest\\\\nof\\\\nthe\\\\nnamed\\\\ninsured\\\\nis\\\\nindemnified\\\\nunder\\\\nthis\\\\nPolicy ,\\\\nwe\\\\nshall\\\\nbe\\\\nsubrogated\\\\nto\\\\nall\\\\nrights\\\\nand\\\\nremedies\\\\nof\\\\nthe\\\\nnamed\\\\ninsured\\\\n.\\\\nIf\\\\nrequested\\\\nby\\\\nus\\\\n,\\\\nthe\\\\nnamed\\\\ninsured\\\\nshall:\\\\na.   report\\\\nfully\\\\nand\\\\nfairly\\\\non\\\\nany\\\\ncauses\\\\nof\\\\naction\\\\nwhich\\\\nthe\\\\nuncovered\\\\nentity\\\\nmay\\\\nhave\\\\nagainst\\\\nany\\\\nthird\\\\nparty\\\\narising\\\\nout\\\\nof\\\\nthe\\\\nfacts\\\\nand\\\\ncircumstances\\\\nwhich\\\\ngave\\\\nrise\\\\nto\\\\nthe\\\\nloss\\\\n;\\\\nb.   procure\\\\nthat\\\\nthe\\\\nuncovered\\\\nentity\\\\nassigns\\\\nto\\\\nthe\\\\nnamed\\\\ninsured\\\\nthe\\\\nbenefit\\\\nof\\\\nany\\\\ncause\\\\nof\\\\naction\\\\nit\\\\nmay\\\\nhave\\\\nagainst\\\\nany\\\\nsuch\\\\nthird\\\\nparty\\\\n(including\\\\nany\\\\ninsurer\\\\nissuing\\\\na\\\\npolicy\\\\nto\\\\nthe\\\\nuncovered\\\\nentity\\\\n)\\\\nand\\\\nthat\\\\nthe\\\\nuncovered\\\\nentity\\\\nshall\\\\ncooperate\\\\nwith\\\\nus\\\\nin\\\\npursuing\\\\nsuch\\\\ncause\\\\nof\\\\naction;\\\\nand\\\\nc.   procure\\\\nthat\\\\nthe\\\\nuncovered\\\\nentity\\\\nshall\\\\nlitigate\\\\nagainst\\\\nany\\\\nsuch\\\\nthird\\\\nparty\\\\n(including\\\\nany\\\\ninsurer(s)\\\\nissuing\\\\na\\\\npolicy\\\\nto\\\\nthe\\\\nuncovered\\\\nentity\\\\n)\\\\non\\\\nterms\\\\nthat\\\\nwe\\\\nhave\\\\ncontrol\\\\nof\\\\nsuch\\\\nlitigation\\\\nand\\\\nbear\\\\nthe\\\\nreasonable\\\\ncosts\\\\nof\\\\nsuch\\\\nlitigation\\\\nsave\\\\nthat\\\\nif\\\\nthe\\\\nsum\\\\nclaimed\\\\nin\\\\nany\\\\nsuch\\\\nlitigation\\\\nexceeds\\\\nthe\\\\nindemnity\\\\nprovided\\\\nunder\\\\nthis\\\\nclause\\\\nwe\\\\nshall\\\\nonly\\\\nmake\\\\na\\\\nratable\\\\ncontribution\\\\nto\\\\ncosts.\\\\nAll\\\\nother\\\\nterms\\\\nand\\\\nconditions\\\\nof\\\\nthis\\\\nPolicy\\\\nremain\\\\nunchanged.\\\\nSP\\\\n14\\\\n843\\\\n1117\\\\nPage\\\\n2\\\\nof\\\\n2', 'You\\\\nw i l l\\\\nd o\\\\ne v e r y t h i n g\\\\nn e c e s s a r y\\\\nt o\\\\ns e c u r e\\\\na n d\\\\np r e s e r v e\\\\ns u c h\\\\ns u b r o g a t i o n\\\\nr i g h t s ,\\\\ni n c l u d i n g\\\\nt h e\\\\ne x e c u t i o n\\\\no f\\\\na n y\\\\nd o c u m e n t s\\\\nn e c e s s a r y\\\\nt o\\\\ne n a b l e\\\\nus\\\\nt o\\\\nb r i n g\\\\ns u i t\\\\ni n\\\\nyour\\\\nn a m e .\\\\nYou\\\\nw i l l\\\\nn o t\\\\nd o\\\\na n y t h i n g\\\\na f t e r\\\\na n\\\\nincident\\\\no r\\\\ne v e n t\\\\ng i v i n g\\\\nr i s e\\\\nt o\\\\na\\\\nclaim\\\\no r\\\\nloss\\\\nt o\\\\np r e j u d i c e\\\\ns u c h\\\\ns u b r o g a t i o n\\\\nr i g h t s\\\\nw i t h o u t\\\\nf i r s t\\\\no b t a i n i n g\\\\nour\\\\nc o n s e n t .', 'SPECIMEN[Insert Agency Branding]\\\\nFILING POLICY NO.: X-XXXX-XXXXXX-XXXXX-XXXX ENDT NO.: XX\\\\nW AIVER OF SUBROGA TION PER CONTRACT ENDORSEMENT\\\\nF orm Num ber SP 15 810 0318\\\\nEf fective Date of Endorsem ent XX,XX,XXXX\\\\nNam ed Insured XXXXXXXXX\\\\nF iling Policy Num ber XX XXX XXXX\\\\nIssued by\\\\n(Nam e of Insurance Com pany)[INSURANCE CO M P ANY]\\\\nTHIS ENDORSEMENT CHANGES THE POLICY . PLEASE READ IT CAREFULL Y .\\\\nThis endorsement modifies insurance provided under the following:\\\\nCOALITION CYBER POLICY\\\\nIn consideration of the premium charged for this Policy , it is hereby understood and\\\\nagreed that:\\\\nSECTION IV , YOUR OBLIGA TIONS AS AN INSURED, OBLIGA TION T O PRESER VE\\\\nOUR RIGHT OF SUBROGA TION is deleted and replaced with the following:\\\\nOBLIGA TION T O\\\\nPRESER VE OUR RIGHT\\\\nOF SUBROGA TIONIn the event of any payment by us under this Policy , we will be\\\\nsubrogated to all of your rights of recovery . You will do everything\\\\nnecessary to secure and preserve such subrogation rights, including\\\\nthe execution of any documents necessary to enable us to bring suit\\\\ninyour name.You will not do anything after an incident or event\\\\ngiving rise to a claim orloss to prejudice such subrogation rights\\\\nwithout first obtaining our consent.\\\\nThis obligation does not apply to the extent that the right to\\\\nsubrogate is waived by you under a written contract with that person\\\\nor organization, prior to the incident or event giving rise to the claim\\\\norloss\\\\nAll other terms and conditions of this Policy remain unchanged.\\\\nThis endorsement forms a part of the Policy to which attached, ef fective on the\\\\ninception date of the Policy unless otherwise stated herein.\\\\nS P 15 810 0318 P age 1 of 1', 'SPECIMENPOLICY NO.: «policy.coalition_policy_number» ENDT NO.: «endorsement.index»\\\\nW AIVER OF SUBROGA TION ENDORSEMENT\\\\nForm Number CYUSP-00EN-040020- 1022-01\\\\nEffective Date of Endorsement «pretty_date(endorsement.effective_date,»\\\\nNamed Insured «policy.insured.name»\\\\nPolicy Number «policy.coalition_policy_number»\\\\nIssued by (Name of Insurance Company) «,n»\\\\nTHIS ENDORSEMENT CHANGES THE POLICY . PLEASE READ IT CAREFULL Y\\\\nThis endorsement modi ﬁes insurance provided under the following:\\\\n«language.policy_name»\\\\nIn consideration of the premium charged for this Policy, it is hereby understood and agreed that:\\\\nSECTION IV, YOUR OBLIGA TIONS AS AN INSURED, OBLIGA TION TO PRESERVE OUR RIGHT OF SUBROGA TION is\\\\ndeleted and replaced with the following:\\\\nOBLIGA TION TO PRESERVE\\\\nOUR RIGHT OF\\\\nSUBROGA TIONIn the event of any payment by us under this Policy, we will be subrogated to all\\\\nof your rights of recovery. Y ou will do everything necessary to secure and\\\\npreserve such subrogation rights, including the execution of any documents\\\\nnecessary to enable us to bring suit in your name. Y ou will not do anything after\\\\nan event or other circumstance giving rise to a claim, loss, breach response\\\\ncosts, breach response services, regulatory penalties, or PCI ﬁnes and\\\\nassessments to prejudice such subrogation rights without ﬁrst obtaining our\\\\nconsent.', 'T h i s\\\\no b l i g a t i o n\\\\nd o e s\\\\nn o t\\\\na p p l y\\\\nt o\\\\nt h e\\\\np e r s o n ( s )\\\\no r\\\\no r g a n i z a t i o n ( s )\\\\ni n \\\\nt h e\\\\na t t a c h e d\\\\ns c h e d u l e ,\\\\nb u t\\\\no n l y\\\\nt o\\\\nt h e\\\\ne x t e n t\\\\nt h a t\\\\nt h e\\\\nr i g h t\\\\nt o\\\\ns u b r o g a t e\\\\ni s\\\\nw a i v e d\\\\nb y\\\\nyou\\\\nu n d e r\\\\na\\\\nw r i t t e n\\\\nc o n t r a c t\\\\nw i t h\\\\nt h a t\\\\np e r s o n\\\\no r\\\\no r g a n i z a t i o n ,\\\\np r i o r\\\\nt o\\\\nt h e\\\\nincident\\\\no r\\\\ne v e n t\\\\ng i v i n g\\\\nr i s e\\\\nt o\\\\nt h e\\\\nclaim\\\\no r\\\\nloss\\\\nSchedule \\\\nName\\\\nof\\\\nperson(s) \\\\nName\\\\nof\\\\norganization(s)\\\\nAll\\\\nother\\\\nterms\\\\nand\\\\nconditions\\\\nof\\\\nthis\\\\nPolicy\\\\nremain\\\\nunchanged.\\\\nS P\\\\n1 5\\\\n4 5 6\\\\n0 1 1 8\\\\nP a g e\\\\n1\\\\no f\\\\n1', 'This obligation does not apply to the person(s) or organization(s) in the attached\\\\nschedule, but only to the extent that the right to subrogate is waived by you\\\\nunder a written contract with that person or organization, prior to the event or\\\\nother circumstance giving rise to claim, loss, breach response costs, breach\\\\nresponse services, regulatory penalties, or PCI ﬁnes and assessments.Schedule\\\\n[Name of person(s)]\\\\n[Name of organization(s)]\\\\nAll other terms and conditions of this Policy remain unchanged.\\\\nThis endorsement forms a part of the Policy to which attached, effective on the inception date of the Policy unless\\\\notherwise stated herein.\\\\nCYUSP-00EN-040020- 1022-01 Page 1 of 1']","* Copyright infringement does not include coverage for infringement of software
+* The policy does not allow for waiver of subrogation and instead requires us to do everything necessary to preserve subrogation rights.
+* The insurance companies is qualified to do business in the State of Georgia with ratings of “A-VIII” or better in the latest edition of the A.M. Best key rating guide","Based on the policy documents provided:\\n\\n1. **Copyright Infringement**: The policy explicitly states that ""Copyright infringement does not include coverage for infringement of software."" This implies that any claims related to the infringement of software copyrights are excluded from coverage.\\n\\n2. **Waiver of Subrogation**: The policy clearly states that it does not allow for a waiver of subrogation. Instead, it requires insured parties to ""do everything necessary to preserve subrogation rights."" This means that after an event or circumstance leading to a claim, the insured must ensure that the insurer's rights to recover costs from third parties are maintained, unless the insurer consents otherwise.\\n\\n3. **Insurance Company Qualifications**: The policy mentions that the insurance companies are qualified to do business in the State of Georgia and have ratings of “A-VIII” or better according to the latest edition of the A.M. Best key rating guide. This indicates that the insurers meet specific financial strength and creditworthiness standards.\\n\\nThese sections address the specific aspects of copyright infringement, subrogation rights, and the qualifications of the insurance companies as per the policy documents.","Based on the policy documents provided:
+
+1. **Copyright infringement does not include coverage for infringement of software**: This specific detail is not addressed in the provided excerpts. The documents focus on subrogation rights and obligations rather than specific coverage details related to copyright infringement.
+
+2. **The policy does not allow for waiver of subrogation and instead requires us to do everything necessary to preserve subrogation rights**: This statement is not entirely accurate. The policy documents indicate that there are provisions for waiving subrogation rights under certain conditions. For instance, the waiver of subrogation can be applied if it is waived by the insured under a written contract with the person or organization prior to the incident or event giving rise to the claim or loss (as seen in multiple excerpts, such as the one with Form Number SP 15 456 01 18).
+
+3. **The insurance companies are qualified to do business in the State of Georgia with ratings of “A-VIII” or better in the latest edition of the A.M. Best key rating guide**: This specific qualification detail is not mentioned in the provided excerpts. The documents do not include information about the insurance companies' qualifications or ratings in the A.M. Best key rating guide.","**Matt Massino** can you respond to Lynn? thx
+==============
+**Jonathan Thomas** will handle.",,Yes,No,"Category: Can be answered with documents
+
+Justification: The questions posed in the email adhere to the formats that can typically be addressed using the policy documents:
+1. The question about whether copyright infringement includes coverage for software infringement can be classified as asking about the specifics of a coverage (i.e., ""Does Y coverage cover Z use case?"").
+2. The inquiry about the policy's stance on waiver of subrogation is also asking for clarification about specific policy terms (i.e., ""Does X policy include Y coverage(s)?"").
+3. The question regarding the insurance company's qualifications to do business in a specific state and its ratings can be answered by referring to company documentation or public records that verify business qualifications and ratings.
+
+Potential Document:
+1. For the copyright infringement and subrogation waiver inquiries, the relevant cyber insurance policy document would be the primary source to confirm the coverage specifics and policy terms.
+2. For the qualification and rating of the insurance company in Georgia, the company’s licensing and",normal,closed,renewals@coalitioninc.com,1268853482490,1268853482490,1903200900184,6157091719451.0,10429086656667,,False,True,4565964437403,1260802700910,,,,,ARC Excess & Surplus LLC,9800000.0,9800000.0,<=$100MM,False,,"[
+  ""country:us"",
+  ""north_east_2_-_bd"",
+  ""ny"",
+  ""control_policyholder"",
+  ""csat_cycle_stop"",
+  ""wholesale"",
+  ""quote_servicing::coverage_question"",
+  ""tier_2"",
+  ""agency""
+]","[
+  ""agency"",
+  ""country:us"",
+  ""tier_1"",
+  ""wholesale""
+]","[
+  ""post-effective""
+]",post-effective,Servicing,Renewal Post Effective,"[
+  ""agency"",
+  ""control_policyholder"",
+  ""country:us"",
+  ""csat_cycle_stop"",
+  ""north_east_2_-_bd"",
+  ""ny"",
+  ""quote_servicing::coverage_question"",
+  ""tier_2"",
+  ""wholesale"",
+  ""post-effective"",
+  ""tier_1""
+]","[
+  ""post-effective""
+]",post-effective,Servicing,Renewal Post Effective,https://help.coalitioninc.com,Servicing,True,enabled,True,coalition,True,US-Canada Quote & Policy Servicing,2022-11-16T01:22:56.000Z,2023-10-18T16:15:26.000Z,https://coalition.zendesk.com/api/v2/groups/10429086656667.json,https://coalition.zendesk.com/api/v2/organizations/6157091719451.json,ARC Excess & Surplus LLC,2022-05-24T16:41:27.000Z,2024-01-26T21:33:48.000Z,,,,,https://coalition.zendesk.com/api/v2/users/1268853482490.json,https://coalition.zendesk.com/api/v2/users/1268853482490.json,https://coalition.zendesk.com/api/v2/users/1903200900184.json,Lynn Mirabella,Lynn Mirabella,Jonathan Thomas,lmirabella@arcxs.com,lmirabella@arcxs.com,jt@coalitioninc.com,2022-06-02T19:07:55.000Z,2022-06-02T19:07:55.000Z,2022-01-21T17:43:24.000Z,2024-06-17T16:40:56.000Z,2024-06-17T16:40:56.000Z,2024-06-20T14:19:56.000Z,Pacific Time (US & Canada),Pacific Time (US & Canada),Pacific Time (US & Canada),,,,en-US,en-US,en-US,end-user,end-user,agent,False,False,True,True,True,True,,,2024-06-20T14:16:18.000Z,,,,False,False,False,,,,,2024-03-15T14:39:48.000Z,2024-03-15T14:39:48.000Z,2024-03-15T14:39:48.000Z,2024-03-15T14:39:48.000Z,2024-03-29T15:04:45.000Z,True,False,2024-03-15T05:48:23.000Z,2024-03-15T05:48:23.000Z,2024-03-12T17:48:00.000Z,2024-03-05T19:48:00.000Z,2024-03-19T17:48:00.000Z,2024-03-08T17:48:00.000Z,2024-03-15T17:48:00.000Z,2024-03-07T17:48:00.000Z,2024-03-12T17:48:00.000Z,2024-03-05T19:48:00.000Z,2024-03-19T17:48:00.000Z,2024-03-08T17:48:00.000Z,2024-03-15T17:48:00.000Z,2024-03-07T17:48:00.000Z,,,C-4LPL-104582-CYBER-2023,False,,,,,False,TICKET_BATCH-503581,2023-10-13T19:59:59.000Z,3,"[
+  503581,
+  550565,
+  672577
+]","[
+  ""agency"",
+  ""wholesale"",
+  ""signature-bundle"",
+  ""1"",
+  ""renewal-90d-sla"",
+  ""renewal-app"",
+  ""renewal-quote"",
+  ""renewal-30d-sla"",
+  ""tier_2"",
+  ""control_policyholder"",
+  ""north_east_2_-_bd"",
+  ""quote_servicing::coverage_question"",
+  ""ny"",
+  ""csat_cycle_stop"",
+  ""solved-renewals"",
+  ""country:us""
+]",2,"[
+  4875224,
+  5418504
+]","[
+  ""e2bab7df-578e-433b-b1df-bdcdcc2d4c06"",
+  ""a05111bc-0b50-4eb6-a93b-a08966a3f658""
+]",2023-08-31T03:36:21.668Z,,2023-09-30T03:36:56.050Z,2023-12-22T17:25:21.796Z,True,False,False,,2592035.0,7220905.0,2592035.0,True,9800000.0,Micro SME,COALITION_AUTO_CREATED,True,7824.0,7824.0,7824.0,12.0,4993ea0a-4684-47c5-b40f-fd97f80afa72,ARC Excess & Surplus LLC,ARC Excess & Surplus LLC,58803.0,647d3eeb-6fb3-4439-b842-f9ea58f2600a,Lynn Mirabella,US,NY,a21c978d-d5d0-4325-9f8f-ee33fda3487b,False,[],2023-12-29,2023-12-29,2023-12-29,2024-12-29,0.9933976638,SURPLUS,CS,,,,,,,,,,119,1,1,679908,679908,648023,31885,,820823,852708,False,True,True,True,True,True,2880.0,3039.8,True,True,quote_servicing,coverage_question,https://fiasco.atlassian.net/browse/OPS-406362,,Matt Massino,,north_east_2_-_bd,ny,1,"PLEASE READ IT CAREFULL Y
+This endorsement modi ﬁes insurance provided under the following:
+«language.policy_name»
+In consideration of the premium charged for this Policy, it is hereby understood and agreed that:
+SECTION IV, YOUR OBLIGA TIONS AS AN INSURED, OBLIGA TION TO PRESERVE OUR RIGHT OF SUBROGA TION is
+deleted and replaced with the following:
+OBLIGA TION TO PRESERVE
+OUR RIGHT OF
+SUBROGA TIONIn the event of any payment by us under this Policy, we will be subrogated to all
+of your rights of recovery. Y ou will do everything necessary to secure and
+preserve such subrogation rights, including the execution of any documents
+necessary to enable us to bring suit in your name. Y ou will not do anything after
+an event or other circumstance giving rise to a claim, loss, breach response
+costs, breach response services, regulatory penalties, or PCI ﬁnes and
+assessments to prejudice such subrogation rights without ﬁrst obtaining our
+consent.
+PLEASE READ IT CAREFULL Y .
+This endorsement modifies insurance provided under the following:
+COALITION CYBER POLICY
+In consideration of the premium charged for this Policy , it is hereby understood and
+agreed that:
+SECTION IV , YOUR OBLIGA TIONS AS AN INSURED, OBLIGA TION T O PRESER VE
+OUR RIGHT OF SUBROGA TION is deleted and replaced with the following:
+OBLIGA TION T O
+PRESER VE OUR RIGHT
+OF SUBROGA TIONIn the event of any payment by us under this Policy , we will be
+subrogated to all of your rights of recovery . You will do everything
+necessary to secure and preserve such subrogation rights, including
+the execution of any documents necessary to enable us to bring suit
+inyour name.You will not do anything after an incident or event
+giving rise to a claim orloss to prejudice such subrogation rights
+without first obtaining our consent.
+PLEASE READ IT CAREFULL Y
+This endorsement modifies insurance provided under the following:
+COALITION CYBER AND TECHNOLOGY POLICY 2.0
+In consideration of the premium charged for this Policy , it is hereby understood and
+agreed that:
+SECTION IV , YOUR OBLIGA TIONS AS AN INSURED, OBLIGA TION T O PRESER VE
+OUR RIGHT OF SUBROGA TION is amended by the addition of the following:
+T his obligation does not apply to the person(s) or organization(s) in the below Schedule,
+but only to the extent that the right to subrogate is waived by you under a written contract
+with that person or organization prior to the event or other circum stances giving rise to the
+claim ,loss,breach response costs, breach response services, regulatory penalties, or PCI
+finesandassessments.
+Schedule
+[Nam e of person(s)]
+[Nam e of organization(s)]
+All other terms and conditions of this Policy remain unchanged.
+PLEASE READ IT CAREFULL Y .
+This endorsement modifies insurance provided under the following:
+COALITION CYBER POLICY
+In consideration of the premium charged for this Policy , it is hereby understood and
+agreed that:
+Section III. EXCLUSIONS – WHA T IS NOT COVERED, Paragraph K. INTELLECTUAL
+PROPER TY is deleted and replaced with the following:
+K. INTELLECTUAL
+PROPER TYV iolation or infringement of any intellectual property right or
+obligation, including:
+1. infringement of copyright of software, firmware, or hardware;
+2. misappropriation, misuse, infringement, or violation of any
+patent or trade secret;
+3. distribution or sale of, or of fer to distribute to sell, any goods,
+products, or services; or
+4. other use of any goods, products, or services that infringes
+or violates any intellectual property law or right relating to the
+appearance, design, or function of any goods, products, or
+services;
+however , this exclusion will not apply to:
+1. an otherwise covered claim arising from the acquisition,
+access, theft, or disclosure of a trade secret that qualifies as
+thirdpartycorporateinformation resulting from a security
+failure; or
+S P 16 068 0518 P age 1 of 2
+SPECIMEN[Insert Agency Branding]
+2.
+Y ou will not do anything after
+an event or other circumstance giving rise to a claim, loss, breach response
+costs, breach response services, regulatory penalties, or PCI ﬁnes and
+assessments to prejudice such subrogation rights without ﬁrst obtaining our
+consent.
+This obligation does not apply to the person(s) or organization(s) in the attached
+schedule, but only to the extent that the right to subrogate is waived by you
+under a written contract with that person or organization, prior to the event or
+other circumstance giving rise to claim, loss, breach response costs, breach
+response services, regulatory penalties, or PCI ﬁnes and assessments.Schedule
+[Name of person(s)]
+[Name of organization(s)]
+All other terms and conditions of this Policy remain unchanged.
+This endorsement forms a part of the Policy to which attached, effective on the inception date of the Policy unless
+otherwise stated herein.
+CYUSP-00EN-040020- 1022-01 Page 1 of 1
+Any costs incurred by you in connection with establishing or proving
+reputationalharmloss, including preparing a proof of loss, will be
+your obligation and is not covered under this Policy .
+Solely with respect to verification of reputationalharmloss, you
+agree to allow us to examine and audit your books and records that
+relate to this Policy at any time during the policyperiod and up to 12
+months following a loss.
+5. For purposes of the coverage provided under Insuring Agreement, RHL.
+REPUT A TIONAL HARM LOSS only , Section IX, DEFINITIONS is amended by
+the addition of the following:
+S P 16 383 0718 P age 2 of 4
+SPECIMENAdverse publication means any report or communication to the public through any media
+channel including, but not limited to television, print media, radio, the
+internet, or electronic mail, of information that was previously
+unavailable to the public, specifically concerning a securityfailure,
+databreach, or cyberextortion that af fects any of your customers or
+clients.
+However , this exclusion does not apply to claim expenses incurred in defending
+any such claim until and unless a ﬁnal and non-appealable adjudication in the
+underlying action establishes the gaining of any pro ﬁt, remuneration, or advantage
+to which you are not legally entitled, at which time the named insured will
+reimburse us for all claim expenses we incurred or paid in defending such claim.
+4. Section III, EXCLUSIONS – WHA T IS NOT COVERED, Paragraph T , UNF AIR TRADE PRACTICE is deleted and
+replaced with the following:
+T . UNF AIR TRADE PRACTICE Any actual or alleged false, unlawful, deceptive, anti-competitive or unfair trade
+practices; however , this exclusion does not apply to a claim under Sections II. A.
+NETWORK AND INFORMA TION SECURITY LIABILITY or II.B, REGULA TORY
+DEFENSE AND PENAL TIES arising from a security failure or data breach.
+5.
+Weshall provide coverage under this policy on the following alternative bases:
+1. Admitted Coverage - Weshall provide admitted coverage in jurisdictions where
+weare licensed and/or admitted to do so;
+2. Non-Admitted Coverage - Weshall provide coverage on an unlicensed or
+non-admitted basis in jurisdictions where it is not prohibited by any applicable law
+or regulation in that jurisdiction; or
+3. Financial Interest Coverage - Weshall provide coverage to the namedinsured for
+its financial interest in any subsidiary which would otherwise be covered under
+this Policy which is located in a jurisdiction where:
+a. 
+  applicable
+law or regulation do not, to the best of ourgood faith knowledge,
+allow it to provide coverage; or
+b. 
+  thenamed
+insured has elected that the Policy will not cover such subsidiary
+directly but will cover the named insured's own financial interest in such
+subsidiary.
+SP 14 843 1117 Page 1of 2
+SPECIMENAny entity falling within Paragraphs 3.a. or 3.b. above is referred to as an
+“uncovered entity”.
+You will do everything
+necessary to secure and preserve such subrogation rights, including
+the execution of any documents necessary to enable us to bring suit
+inyour name.You will not do anything after an incident or event
+giving rise to a claim orloss to prejudice such subrogation rights
+without first obtaining our consent.
+This obligation does not apply to the person(s) or organization(s) in
+the attached schedule, but only to the extent that the right to
+subrogate is waived by you under a written contract with that person
+or organization, prior to the incident or event giving rise to the claim
+orloss
+Schedule
+Name of person(s)
+Name of organization(s)
+All other terms and conditions of this Policy remain unchanged.
+S P 15 456 01 18 P age 1 of 1
+SPECIMEN[Insert Agency Branding]
+This endorsement forms a part of the Policy to which attached, ef fective on the
+inception date of the Policy unless otherwise stated herein.
+S P 15 456 01 18 P age 2 of 1
+Section II.C, MUL TIMEDIA CONTENT LIABILITY , for an
+otherwise covered claim for amultimediawrongfulact,
+provided that, this exception to exclusion K. INTELLECTUAL
+PROPER TY will not apply to any violation or infringement of
+any intellectual property right or obligation described in items
+1. and 2. above.
+All other terms and conditions of this Policy remain unchanged.
+This endorsement forms a part of the Policy to which attached, ef fective on the
+inception date of the Policy unless otherwise stated herein.
+S P 16 068 0518 P age 2 of 2","['SPECIMEN[Insert Agency Branding]\\\\nFILING POLICY NO.: XXXXXXXXX ENDT NO.: XX\\\\nPRIMAR Y FOR BREACH RESPONSE ENDORSEMENT\\\\nF orm Num ber SP 18 180 0320\\\\nEf fective Date of Endorsem ent XXXXXX XX, XXXX\\\\nNam ed Insured XXXXXXXX\\\\nF iling Policy Num ber X-XXXX-XXXXXX-XXXXX-XXXX\\\\nIssued by\\\\n(Nam e of Insurance Com pany)[INSURANCE CO M P ANY]\\\\nTHIS ENDORSEMENT CHANGES THE POLICY . PLEASE READ IT CAREFULL Y .\\\\nThis endorsement modifies insurance provided under the following:\\\\nCOALITION CYBER POLICY\\\\nIn consideration of the premium charged for this Policy , it is hereby understood and\\\\nagreed that:\\\\nSECTION X, OTHER PROVISIONS, OTHER INSURANCE, is amended to include the\\\\nfollowing:\\\\nOTHER INSURANCE Notwithstanding the foregoing, only with regards to Section II.E,\\\\nBreach Response, this Policy shall be primary and will not seek\\\\ncontribution.\\\\nAll other terms and conditions of this Policy remain unchanged.', 'SPECI MEN\\\\nFILING\\\\nPOLICY\\\\nNO.:\\\\nx-xxxx-xxxxxx-xxxx\\\\nENDT\\\\nNO\\\\n.\\\\n:\\\\n30\\\\nSCHEDULED\\\\nRESPONSE\\\\nVENDOR\\\\nENDORSEMENT\\\\nF o r m\\\\nN u m b e r\\\\nS P\\\\n1 9\\\\n0 3 2\\\\n0 1 2 1\\\\nE f f e c t i v e\\\\nD a t e\\\\no f\\\\nE n d o r s e m e n t\\\\n[ X X X X X ]\\\\nN a m e d\\\\nI n s u r e d\\\\n[ X X X X ]\\\\nF i l i n g\\\\nP o l i c y\\\\nN u m b e r\\\\n[ X X X X ]\\\\nI s s u e d\\\\nb y \\\\n( N a m e\\\\no f\\\\nI n s u r a n c e\\\\nC o m p a n y )\\\\n[ X X X X ]\\\\nTHIS\\\\nENDORSEMENT\\\\nCHANGES\\\\nTHE\\\\nPOLICY .\\\\nPLEASE\\\\nREAD\\\\nIT\\\\nCAREFULL Y .', 'SPECIMENPOLICY NO.: «policy.coalition_policy_number» ENDT NO.: «endorsement.index»\\\\nSCHEDULED RESPONSE VENDOR ENDORSEMENT\\\\nForm Number CYUSP-00EN-040016- 1022-01\\\\nEffective Date of Endorsement «pretty_date(endorsement.effective_date,»\\\\nNamed Insured «policy.insured.name»\\\\nPolicy Number «policy.coalition_policy_number»\\\\nIssued by (Name of Insurance Company) «,n»\\\\nTHIS ENDORSEMENT CHANGES THE POLICY . PLEASE READ IT CAREFULL Y\\\\nThis endorsement modi ﬁes insurance provided under the following:\\\\n«language.policy_name»\\\\nIn consideration of the premium charged for this Policy, it is hereby understood and agreed that:\\\\n1. Section IX, DEFINITIONS, “breach response costs” and “crisis management costs, ” are deleted and replaced with\\\\nthe following:\\\\nBreach response costs means the following reasonable and necessary costs you incur with our prior\\\\nwritten consent in response to an actual or suspected security failure or data\\\\nbreach:\\\\n1. computer forensic professional fees and expenses to determine the cause\\\\nand extent of a security failure or data breach;', 'SPECIMENFILING POLICY NO.: XXXXXXXXX ENDT NO.: XX\\\\nPRIMAR Y FOR BREACH RESPONSE ENDORSEMENT\\\\nF orm Num ber CYBCAN 0025 0121\\\\nEf fective Date of Endorsem ent [XXXXXX XX, XXXX]\\\\nNam ed Insured [XXXXXXXX]\\\\nF iling Policy Num ber [X-XXXX-XXXXXX-XXXXX-XXXX]\\\\nIssued by\\\\n(Nam e of Insurance Com pany)[XXXXXXXX]\\\\nTHIS ENDORSEMENT CHANGES THE POLICY . PLEASE READ IT CAREFULL Y .\\\\nThis endorsement modifies insurance provided under the following:\\\\nCOALITION CYBER AND TECHNOLOGY POLICY 2.0\\\\nIn consideration of the premium charged for this Policy , it is hereby understood and\\\\nagreed that:\\\\nSECTION VIII, OTHER PROVISIONS, OTHER INSURANCE, is amended to include the\\\\nfollowing:\\\\nOTHER INSURANCE Notwithstanding the foregoing, only with regards to Section II.H,\\\\nBreach Response Costs, this Policy shall be primary and will not\\\\nseek contribution.\\\\nAll other terms and conditions of this Policy remain unchanged.', 'Compliance with a breach notice law will not be\\\\nconsidered as an admission of liability for purposes of this paragraph.\\\\nExpenses incurred by you in assisting and cooperating with us do not constitute\\\\nclaim expenses, loss, breach response costs, or breach response services under\\\\nthis Policy.\\\\n10. SECTION V, CLAIMS PROCESS, SETTLEMENT is deleted and replaced with the following:\\\\nSETTLEMENT Ifyou refuse to consent to any settlement or compromise of a claim recommended\\\\nby us and acceptable to the claimant, our liability for such claim will not exceed:\\\\n1. the amount for which such claim could have been settled, less the\\\\nretention, plus claim expenses incurred up to the time of such refusal;\\\\nand\\\\n2. eighty percent (80%) of claim expenses incurred after such settlement\\\\nwas refused by you, plus eighty percent (80%) of damages and\\\\nregulatory penalties in excess of the amount such claim could have been\\\\nsettled under such settlement.\\\\nIn this event, we will have the right to withdraw from the further defense of such\\\\nclaim by tendering control of the defense thereof to you. The operation of this\\\\nparagraph will be subject to the Limits of Liability and Retention provisions of this\\\\nPolicy.', 'Such Limits of\\\\nLiability are part of, and not in addition to, the Aggregate Policy Limit of Liability.\\\\nThe Limit stated in Item 5. of the Declarations with respect to an Insuring\\\\nAgreement is the maximum amount we will be liable to pay for all claim\\\\nexpenses, damages, funds transfer liability loss, loss, breach response costs,\\\\nPCI ﬁnes and assessments, regulatory penalties, and other amounts arising\\\\nCYUSP-00EN-020002- 1022-01 Page 1 of 2\\\\nSPECIMENfrom a single event and in aggregate for all events under that Insuring\\\\nAgreement. Such Limits of Liability are part of, and not in addition to, the\\\\nAggregate Policy Limit of Liability.\\\\nProvided further, however, that if you have purchased the Optional Additional\\\\nLimit of Liability for Breach Response Costs, then breach response costs will not\\\\nbe subject to the Aggregate Policy Limit of Liability set forth in Item 4. of the\\\\nDeclarations, and instead shall be subject to the “Optional Additional Limit of\\\\nLiability for Breach Response Costs” as set forth below.', 'SPECI MEN\\\\n[Insert\\\\nAgency\\\\nBranding]\\\\nFILING\\\\nPOLICY\\\\nNO.:\\\\nXXXXXXXXX\\\\nENDT\\\\nNO.:\\\\nXX\\\\nPRIMAR Y\\\\nFOR\\\\nBREACH\\\\nRESPONSE\\\\nENDORSEMENT\\\\nF o r m\\\\nN u m b e r\\\\nS P\\\\n1 8\\\\n1 8 0\\\\n0 3 2 0\\\\nE f f e c t i v e\\\\nD a t e\\\\no f\\\\nE n d o r s e m e n t\\\\nX X X X X X\\\\nX X ,\\\\nX X X X\\\\nN a m e d\\\\nI n s u r e d\\\\nX X X X X X X X\\\\nF i l i n g\\\\nP o l i c y\\\\nN u m b e r\\\\nX - X X X X - X X X X X X - X X X X X - X X X X\\\\nI s s u e d\\\\nb y \\\\n( N a m e\\\\no f\\\\nI n s u r a n c e\\\\nC o m p a n y )\\\\n[ I N S U R A N C E\\\\nC O M P A N Y ]\\\\nTHIS\\\\nENDORSEMENT\\\\nCHANGES\\\\nTHE\\\\nPOLICY .', 'Our Limits of Liability for an Optional Extended Reporting Period, if\\\\napplicable, will be part of, and not in addition to the Aggregate Limit\\\\nof Liability set forth in Item 4. of the Declarations.\\\\nLimit of Liability for Breach Response Costs\\\\nThe Breach Response Limit of Liability set forth in Item 4. of the\\\\nDeclarations is the maximum amount we will be liable to pay for all\\\\nbreachresponsecosts, regardless of the number of securityfailures,\\\\ndatabreaches, or insureds. The Breach Response Limit of Liability is\\\\nin addition to the Aggregate Limit of Liability . Upon exhaustion of\\\\nthe Breach Response Limit of Liability , there will be no further\\\\ncoverage under this Policy for any breachresponsecosts.\\\\nAll other terms and conditions of this Policy remain unchanged.\\\\nThis endorsement forms a part of the Policy to which attached, ef fective on the\\\\ninception date of the Policy unless otherwise stated herein.\\\\nS P 16 296 0618 P age 2 of 2', 'Y ou will not do anything after\\\\nan event or other circumstance giving rise to a claim, loss, breach response\\\\ncosts, breach response services, regulatory penalties, or PCI ﬁnes and\\\\nassessments to prejudice such subrogation rights without ﬁrst obtaining our\\\\nconsent.\\\\nThis obligation does not apply to the person(s) or organization(s) in the attached\\\\nschedule, but only to the extent that the right to subrogate is waived by you\\\\nunder a written contract with that person or organization, prior to the event or\\\\nother circumstance giving rise to claim, loss, breach response costs, breach\\\\nresponse services, regulatory penalties, or PCI ﬁnes and assessments.Schedule\\\\n[Name of person(s)]\\\\n[Name of organization(s)]\\\\nAll other terms and conditions of this Policy remain unchanged.\\\\nThis endorsement forms a part of the Policy to which attached, effective on the inception date of the Policy unless\\\\notherwise stated herein.\\\\nCYUSP-00EN-040020- 1022-01 Page 1 of 1', 'Item\\\\n4.\\\\nof\\\\nthe\\\\nDeclarations\\\\nis\\\\namended\\\\nto\\\\ninclude\\\\nthe\\\\nfollowing:\\\\nBREACH\\\\nRESPONSE\\\\nLIMIT\\\\nOF\\\\nLIABILITY\\\\n[]\\\\n2.\\\\nSection\\\\nVI,\\\\nLIMITS\\\\nOF\\\\nLIABILITY\\\\nAND\\\\nRETENTION,\\\\nLIMITS\\\\nOF\\\\nLIABILITY\\\\nis \\\\ndeleted\\\\nand\\\\nreplaced\\\\nby\\\\nthe\\\\nfollowing:\\\\nL I M I T S\\\\nO F\\\\nL I A B I L I T Y\\\\nA g g r e g a t e\\\\nL i m i t\\\\no f\\\\nL i a b i l i t y\\\\n&\\\\nL i m i t s\\\\no f\\\\nL i a b i l i t y\\\\nf o r\\\\nA l l\\\\nA m o u n t s\\\\nO t h e r\\\\nt h a n\\\\nB r e a c h\\\\nR e s p o n s e\\\\nC o s t s\\\\nT h e\\\\nA g g r e g a t e\\\\nL i m i t\\\\no f\\\\nL i a b i l i t y\\\\ns e t\\\\nf o r t h\\\\ni n\\\\nI t e m\\\\n4 .']"
+,https://coalition.zendesk.com/api/v2/tickets/630274.json,email,2024-01-31T13:56:31.000Z,2024-01-31T13:56:31.000Z,2024-04-02T20:06:00.520Z,task,630274,"Coalition Policy: City of West Palm Beach Police Pension Fund, Precision Pension Administration - C-4LWN-121827-CYBER-2024-01","Good morning,
+
+ 
+
+This customer has a couple questions about the proposal we provided. Please advise if you have documentation we may provide regarding the pre-claim assistance and also address the question regarding recourse against Trustees and waiver if possible. Thank you.
+
+ 
+
+The limits look good, except I have a question about:
+
+ 
+
+Pre-Claim Assistance   $820         Pre-claim assistance is a benefit included as part of the premium. See Section V, CLAIMS PROCESS, PRECLAIM ASSISTANCE of the Policy for more details.
+
+ 
+
+Not sure what that is about.  I did not see a policy attached so could not read about it.  Additionally, is there any right of recourse against the Trustees?  If so, would like to have a waiver of that provision.
+
+ 
+
+________________________________________________
+
+Privacy Notice (https://www.bbrown.com/privacy-policy/)
+  | ​​​​ Legal Notice (https://www.bbrown.com/legal-notices/)
+
+CONFIDENTIALITY NOTICE: The information contained in this communication, including attachments, may contain privileged and confidential information that is intended only for the exclusive use of the addressee. If the reader of this message is not the intended recipient, or the employee or agent responsible for delivering it to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us by telephone immediately.
+ 
+PLEASE NOTE: Insurance cannot be bound, altered or cancelled via the email or voicemail system. Coverage confirmation must be communicated through a licensed Brown & Brown Representative.
+​
+​When Brown & Brown has processed an add, termination or change of status on your behalf, please remember to check your carrier invoices to ensure that all requested adds, terminations & changes were processed correctly.
+
+From: Coalition
+
+Sent: Wednesday, January 17, 2024 10:18 PM
+
+To: Amanda Hanson
+
+Subject: City of West Palm Beach Police Pens[...] (Policy C-4LWN-121827-CYBER-2023) Renewal Quote
+
+ 
+
+
+ [External]
+
+ 
+
+Action Required
+
+* Provide updated application information (pre-filled application attached)
+
+Hi Amanda Hanson,
+
+Based on the expiring information for City of West Palm Beach Police Pension Fund, Precision Pension Administration's renewal, we're pleased to provide the attached quote of insurance. You may bind coverage in the Coalition dashboard after confirming that the expiring application information is correct or providing updated information, which may change Coalition’s terms. Please note that we have not received a signed application, which is required to issue the policy.
+
+View Quote  (https://mandrillapp.com/track/click/31017443/platform.thecoalition.com?p=eyJzIjoidDN5eUkxYnpQR2xkcHd4MFpxdXlyQ2xjQ3dVIiwidiI6MSwicCI6IntcInVcIjozMTAxNzQ0MyxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3BsYXRmb3JtLnRoZWNvYWxpdGlvbi5jb21cXFwvYnJva2VyXFxcL3F1b3RlXFxcL0MtNExXTi0xMjE4MjctQ1lCRVItMjAyNC0wMVwiLFwiaWRcIjpcIjFjYTdjNDg4ODFiMDQ3ZTliYjg2MjRiZDg2OTc3YzRkXCIsXCJ1cmxfaWRzXCI6W1wiNGViYjg2NDBhZjZjYTU1Y2JhM2M0ODZkMDBmZWI0ZWFjY2U5OWYyNFwiXX0ifQ)
+
+Quote Overview:
+
+* Term: February 17, 2024 - February 17, 2025
+* Premium: $3,311.00
+* Total Price: $3,634.05
+* Percentage Difference from Expiring Policy: 9%
+* These terms are based on the expiring policy application information and are subject to change. Please provide updated application information immediately to finalize terms and conditions.
+
+
+Should there be a material change in your risk prior to renewal, including any claims, circumstances that may give rise to a claim, updates in application information, or notifications or detection of critical vulnerabilities by us, we reserve the right to modify our terms and retain the right to non-renew based on our risk analysis.
+
+Thank you again for the opportunity to work with you as a risk management partner to City of West Palm Beach Police Pension Fund, Precision Pension Administration. If you have any questions, please don't hesitate to contact us. (https://mandrillapp.com/track/click/31017443/www.coalitioninc.com?p=eyJzIjoicllLWGNYWjRzaXJVdFVyM1NWUi1objdEUzhnIiwidiI6MSwicCI6IntcInVcIjozMTAxNzQ0MyxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy5jb2FsaXRpb25pbmMuY29tXFxcL2NvbnRhY3RcIixcImlkXCI6XCIxY2E3YzQ4ODgxYjA0N2U5YmI4NjI0YmQ4Njk3N2M0ZFwiLFwidXJsX2lkc1wiOltcImU2ZWMwM2JiYTk2YzY1ZDEzODcxODU0YTdhNGE3MGRmYTkyMzEyZmFcIl19In0)
+
+All the best,
+Coalition Team
+
+ 
+
+Sent by Coalition Inc. (https://mandrillapp.com/track/click/31017443/www.coalitioninc.com?p=eyJzIjoibmF3ZXdTVkQyM05paU03M2tWaTBJdk8ySENJIiwidiI6MSwicCI6IntcInVcIjozMTAxNzQ0MyxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy5jb2FsaXRpb25pbmMuY29tXFxcL1wiLFwiaWRcIjpcIjFjYTdjNDg4ODFiMDQ3ZTliYjg2MjRiZDg2OTc3YzRkXCIsXCJ1cmxfaWRzXCI6W1wiMjgzMWYwY2QyODc4OGMzYTAzNDE3OTFkZGI1MzVlYTcxOTk0ZmYyNFwiXX0ifQ) 55 2nd Street, Suite 2500, San Francisco CA 94105
+
+Help Center (https://mandrillapp.com/track/click/31017443/www.coalitioninc.com?p=eyJzIjoic2VaS3ZoblJJRG13ZVlSOXlfMDd3QjRBSklJIiwidiI6MSwicCI6IntcInVcIjozMTAxNzQ0MyxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy5jb2FsaXRpb25pbmMuY29tXFxcL2xlYXJuaW5nXCIsXCJpZFwiOlwiMWNhN2M0ODg4MWIwNDdlOWJiODYyNGJkODY5NzdjNGRcIixcInVybF9pZHNcIjpbXCI4Y2JiMDlmZDMyZmVhNmY2N2UxYzU3Y2FlNWYyYTA4MGE2MWMxNjQ0XCJdfSJ9) • Privacy Policy (https://mandrillapp.com/track/click/31017443/www.coalitioninc.com?p=eyJzIjoiVmJtRkFZZlRtdkF1dmtZcFN1MDRHcXFqTEI4IiwidiI6MSwicCI6IntcInVcIjozMTAxNzQ0MyxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy5jb2FsaXRpb25pbmMuY29tXFxcL2xlZ2FsXFxcL3ByaXZhY3lcIixcImlkXCI6XCIxY2E3YzQ4ODgxYjA0N2U5YmI4NjI0YmQ4Njk3N2M0ZFwiLFwidXJsX2lkc1wiOltcIjVkODIzNjc5MTI3NTcyYTFiYjFlMjhlYjc4NGZjZDUzYjM3MmI3YjRcIl19In0)
+
+
+
+
+Please be advised that any and all information, comments, analysis, and/or recommendations set forth above relative to the possible impact of COVID-19 on potential insurance coverage or other policy implications are intended solely for informational purposes and should not be relied upon as legal advice. As an insurance broker, we have no authority to make coverage decisions as that ability rests solely with the issuing carrier. Therefore, all claims should be submitted to the carrier for evaluation. The positions expressed herein are opinions only and are not to be construed as any form of guarantee or warranty. Finally, given the extremely dynamic and rapidly evolving COVID-19 situation, comments above do not take into account any applicable pending or future legislation introduced with the intent to override, alter or amend current policy language.","['T h i s\\\\no b l i g a t i o n\\\\nd o e s\\\\nn o t\\\\na p p l y\\\\nt o\\\\nt h e\\\\np e r s o n ( s )\\\\no r\\\\no r g a n i z a t i o n ( s )\\\\ni n \\\\nt h e\\\\na t t a c h e d\\\\ns c h e d u l e ,\\\\nb u t\\\\no n l y\\\\nt o\\\\nt h e\\\\ne x t e n t\\\\nt h a t\\\\nt h e\\\\nr i g h t\\\\nt o\\\\ns u b r o g a t e\\\\ni s\\\\nw a i v e d\\\\nb y\\\\nyou\\\\nu n d e r\\\\na\\\\nw r i t t e n\\\\nc o n t r a c t\\\\nw i t h\\\\nt h a t\\\\np e r s o n\\\\no r\\\\no r g a n i z a t i o n ,\\\\np r i o r\\\\nt o\\\\nt h e\\\\nincident\\\\no r\\\\ne v e n t\\\\ng i v i n g\\\\nr i s e\\\\nt o\\\\nt h e\\\\nclaim\\\\no r\\\\nloss\\\\nSchedule \\\\nName\\\\nof\\\\nperson(s) \\\\nName\\\\nof\\\\norganization(s)\\\\nAll\\\\nother\\\\nterms\\\\nand\\\\nconditions\\\\nof\\\\nthis\\\\nPolicy\\\\nremain\\\\nunchanged.\\\\nS P\\\\n1 5\\\\n4 5 6\\\\n0 1 1 8\\\\nP a g e\\\\n1\\\\no f\\\\n1', 'This\\\\nendorsement\\\\nmodifies\\\\ninsurance\\\\nprovided\\\\nunder\\\\nthe\\\\nfollowing:\\\\nCOALITION\\\\nCYBER\\\\nPOLICY\\\\nIn\\\\nconsideration\\\\nof\\\\nthe\\\\npremium\\\\ncharged\\\\nfor\\\\nthis\\\\nPolicy ,\\\\nit\\\\nis\\\\nhereby\\\\nunderstood\\\\nand \\\\nagreed\\\\nthat:\\\\nSECTION\\\\nIV ,\\\\nYOUR\\\\nOBLIGA TIONS\\\\nAS\\\\nAN\\\\nINSURED,\\\\nOBLIGA TION\\\\nT O\\\\nPRESER VE\\\\nOUR\\\\nRIGHT\\\\nOF\\\\nSUBROGA TION\\\\nis\\\\ndeleted\\\\nand\\\\nreplaced\\\\nwith\\\\nthe\\\\nfollowing:\\\\nO B L I G A T I O N\\\\nT O \\\\nP R E S E R V E\\\\nO U R\\\\nR I G H T \\\\nO F\\\\nS U B R O G A T I O N\\\\nI n\\\\nt h e\\\\ne v e n t\\\\no f\\\\na n y\\\\np a y m e n t\\\\nb y\\\\nus\\\\nu n d e r\\\\nt h i s\\\\nP o l i c y ,\\\\nwe\\\\nw i l l\\\\nb e\\\\ns u b r o g a t e d\\\\nt o\\\\na l l\\\\no f\\\\nyour\\\\nr i g h t s\\\\no f\\\\nr e c o v e r y .\\\\nYou\\\\nw i l l\\\\nd o\\\\ne v e r y t h i n g\\\\nn e c e s s a r y\\\\nt o\\\\ns e c u r e\\\\na n d\\\\np r e s e r v e\\\\ns u c h\\\\ns u b r o g a t i o n\\\\nr i g h t s ,\\\\ni n c l u d i n g\\\\nt h e\\\\ne x e c u t i o n\\\\no f\\\\na n y\\\\nd o c u m e n t s\\\\nn e c e s s a r y\\\\nt o\\\\ne n a b l e\\\\nus\\\\nt o\\\\nb r i n g\\\\ns u i t\\\\ni n\\\\nyour\\\\nn a m e .', 'You\\\\nw i l l\\\\nd o\\\\ne v e r y t h i n g\\\\nn e c e s s a r y\\\\nt o\\\\ns e c u r e\\\\na n d\\\\np r e s e r v e\\\\ns u c h\\\\ns u b r o g a t i o n\\\\nr i g h t s ,\\\\ni n c l u d i n g\\\\nt h e\\\\ne x e c u t i o n\\\\no f\\\\na n y\\\\nd o c u m e n t s\\\\nn e c e s s a r y\\\\nt o\\\\ne n a b l e\\\\nus\\\\nt o\\\\nb r i n g\\\\ns u i t\\\\ni n\\\\nyour\\\\nn a m e .\\\\nYou\\\\nw i l l\\\\nn o t\\\\nd o\\\\na n y t h i n g\\\\na f t e r\\\\na n\\\\nincident\\\\no r\\\\ne v e n t\\\\ng i v i n g\\\\nr i s e\\\\nt o\\\\na\\\\nclaim\\\\no r\\\\nloss\\\\nt o\\\\np r e j u d i c e\\\\ns u c h\\\\ns u b r o g a t i o n\\\\nr i g h t s\\\\nw i t h o u t\\\\nf i r s t\\\\no b t a i n i n g\\\\nour\\\\nc o n s e n t .', 'SPECIMENwith respect to allocation, then we shall be obligated to make interim payments of the\\\\namounts of damages andclaimexpenses which the parties agree are not in dispute until\\\\na final amount is agreed upon or determined. The parties agree that any dispute under\\\\nthis section will be subject to mediation first and then, if the dispute is not resolved, by\\\\nbinding arbitration according to AAA rules.\\\\nAll other terms and conditions of this Policy remain unchanged.\\\\nThis endorsement forms a part of the Policy to which attached, ef fective on the\\\\ninception date of the Policy unless otherwise stated herein.\\\\nS P 19 166 0121 P age 1of 2', 'This obligation does not apply to the person(s) or organization(s) in the attached\\\\nschedule, but only to the extent that the right to subrogate is waived by you\\\\nunder a written contract with that person or organization, prior to the event or\\\\nother circumstance giving rise to claim, loss, breach response costs, breach\\\\nresponse services, regulatory penalties, or PCI ﬁnes and assessments.Schedule\\\\n[Name of person(s)]\\\\n[Name of organization(s)]\\\\nAll other terms and conditions of this Policy remain unchanged.\\\\nThis endorsement forms a part of the Policy to which attached, effective on the inception date of the Policy unless\\\\notherwise stated herein.\\\\nCYUSP-00EN-040020- 1022-01 Page 1 of 1', 'SPECIMENFILING POLICY NO.: [X-XXXX-XXXXXX-CYBER-XXXX]\\\\nENDT NO.: [XX]\\\\nW AIVER OF SUBROGA TION PER CONTRACT ENDORSEMENT\\\\nForm Number CYCAP-00EN-000009-0123-01\\\\nEf fective Date of\\\\nEndorsement[XXX]\\\\nNamed Insured [XXX]\\\\nFiling Policy Number [XXXX]\\\\nIssued by\\\\n(Name of Insurance\\\\nCompany)[NAME OF INSURANCE COMP ANIES]\\\\nTHIS ENDORSEMENT CHANGES THE POLICY. PLEASE READ IT CAREFULL Y\\\\nThis endorsement modifies insurance provided under the following:\\\\nCOALITION CYBER AND TECHNOLOGY POLICY 2.0\\\\nIn consideration of the premium charged for this Policy , it is hereby understood and\\\\nagreed that:\\\\nSECTION IV , YOUR OBLIGA TIONS AS AN INSURED, OBLIGA TION T O PRESER VE\\\\nOUR RIGHT OF SUBROGA TION is amended by the addition of the following:\\\\nT his obligation does not apply to the person(s) or organization(s) in the below Schedule,\\\\nbut only to the extent that the right to subrogate is waived by you under a written contract\\\\nwith that person or organization prior to the event or other circum stances giving rise to the\\\\nclaim ,loss,breach response costs, breach response services, regulatory penalties, or PCI\\\\nfinesandassessments.\\\\nSchedule\\\\n[Nam e of person(s)]\\\\n[Nam e of organization(s)]\\\\nAll other terms and conditions of this Policy remain unchanged.\\\\nC Y C A P -00E N -000009-0123-01 P age 1 of 1', 'SPECIMEN[Insert Agency Branding]\\\\nFILING POLICY NO.: XXXXXXXXX ENDT NO.: XX\\\\nW AIVER OF SUBROGA TION ENDORSEMENT\\\\nForm Number SP 15 456 01 18\\\\nEf fective Date of\\\\nEndorsementXXXXXX XX, XXXX\\\\nNamed Insured XXXXXXXX\\\\nFiling Policy Number X-XXXX-XXXXXX-XXXXX-XXXX\\\\nIssued by\\\\n(Name of Insurance\\\\nCompany)[INSURANCE COMP ANY]\\\\nTHIS ENDORSEMENT CHANGES THE POLICY . PLEASE READ IT CAREFULL Y .\\\\nThis endorsement modifies insurance provided under the following:\\\\nCOALITION CYBER POLICY\\\\nIn consideration of the premium charged for this Policy , it is hereby understood and\\\\nagreed that:\\\\nSECTION IV , YOUR OBLIGA TIONS AS AN INSURED, OBLIGA TION T O PRESER VE\\\\nOUR RIGHT OF SUBROGA TION is deleted and replaced with the following:\\\\nOBLIGA TION T O\\\\nPRESER VE OUR RIGHT\\\\nOF SUBROGA TIONIn the event of any payment by us under this Policy , we will be\\\\nsubrogated to all of your rights of recovery . You will do everything\\\\nnecessary to secure and preserve such subrogation rights, including\\\\nthe execution of any documents necessary to enable us to bring suit\\\\ninyour name.You will not do anything after an incident or event\\\\ngiving rise to a claim orloss to prejudice such subrogation rights\\\\nwithout first obtaining our consent.\\\\nThis obligation does not apply to the person(s) or organization(s) in\\\\nthe attached schedule, but only to the extent that the right to\\\\nsubrogate is waived by you under a written contract with that person\\\\nor organization, prior to the incident or event giving rise to the claim\\\\norloss\\\\nSchedule\\\\nName of person(s)\\\\nName of organization(s)\\\\nAll other terms and conditions of this Policy remain unchanged.\\\\nS P 15 456 01 18 P age 1 of 1', 'You\\\\nw i l l\\\\nn o t\\\\nd o\\\\na n y t h i n g\\\\na f t e r\\\\na n\\\\nincident\\\\no r\\\\ne v e n t\\\\ng i v i n g\\\\nr i s e\\\\nt o\\\\na\\\\nclaim\\\\no r\\\\nloss\\\\nt o\\\\np r e j u d i c e\\\\ns u c h\\\\ns u b r o g a t i o n\\\\nr i g h t s\\\\nw i t h o u t\\\\nf i r s t\\\\no b t a i n i n g\\\\nour\\\\nc o n s e n t .\\\\nT h i s\\\\no b l i g a t i o n\\\\nd o e s\\\\nn o t\\\\na p p l y\\\\nt o\\\\nt h e\\\\ne x t e n t\\\\nt h a t\\\\nt h e\\\\nr i g h t\\\\nt o\\\\ns u b r o g a t e\\\\ni s\\\\nw a i v e d\\\\nb y\\\\nyou\\\\nu n d e r\\\\na\\\\nw r i t t e n\\\\nc o n t r a c t\\\\nw i t h\\\\nt h a t\\\\np e r s o n\\\\no r\\\\no r g a n i z a t i o n ,\\\\np r i o r\\\\nt o\\\\nt h e\\\\nincident\\\\no r\\\\ne v e n t\\\\ng i v i n g\\\\nr i s e\\\\nt o\\\\nt h e\\\\nclaim\\\\no r\\\\nloss\\\\nAll\\\\nother\\\\nterms\\\\nand\\\\nconditions\\\\nof\\\\nthis\\\\nPolicy\\\\nremain\\\\nunchanged.\\\\nThis\\\\nendorsement\\\\nforms\\\\na\\\\npart\\\\nof\\\\nthe\\\\nPolicy\\\\nto\\\\nwhich\\\\nattached,\\\\nef fective\\\\non\\\\nthe \\\\ninception\\\\ndate\\\\nof\\\\nthe\\\\nPolicy\\\\nunless\\\\notherwise\\\\nstated\\\\nherein.\\\\nS P\\\\n1 5\\\\n8 1 0\\\\n0 3 1 8\\\\nP a g e\\\\n1\\\\no f\\\\n1', 'In this event, we will have the right to withdraw from the further defense of such\\\\nclaim by tendering control of the defense thereof to you. The operation of this\\\\nparagraph will be subject to the Limits of Liability and Retention provisions of this\\\\nPolicy.\\\\n4. SECTION VI, LIMITS OF LIABILITY AND RETENTION, RETENTION, is deleted and replaced with the following:\\\\nCYUSP-00EN-050002- 1022-01 Page 3 of 6', 'o f\\\\nt h e \\\\nD e c l a r a t i o n s\\\\ni s\\\\nt h e\\\\nm a x i m u m\\\\na m o u n t\\\\nw e\\\\nw i l l\\\\nb e\\\\nl i a b l e\\\\nt o\\\\np a y\\\\nf o r\\\\na l l\\\\ndamages\\\\n,\\\\nPCI\\\\nfines\\\\nand\\\\nassessments\\\\n,\\\\nregulatory \\\\npenalties\\\\n,\\\\nclaim\\\\nexpenses\\\\n,\\\\na n d\\\\no t h e r\\\\na m o u n t s\\\\nu n d e r\\\\nt h i s\\\\nP o l i c y ,\\\\nr e g a r d l e s s\\\\no f\\\\nt h e\\\\nn u m b e r\\\\no f\\\\nclaims\\\\n,\\\\nincidents\\\\n,\\\\no r \\\\ninsureds\\\\n.\\\\nT h e\\\\nL i m i t s\\\\no f\\\\nL i a b i l i t y\\\\ns e t\\\\nf o r t h\\\\ni n\\\\nI t e m\\\\n5 .\\\\no f\\\\nt h e\\\\nD e c l a r a t i o n s\\\\ni s\\\\nt h e\\\\nm a x i m u m\\\\na m o u n t\\\\nw e\\\\nw i l l\\\\nb e\\\\nl i a b l e\\\\nt o\\\\np a y\\\\nf o r\\\\na l l\\\\ndamages\\\\n, \\\\nPCI\\\\nfines\\\\nand\\\\nassessments\\\\n,\\\\nregulatory\\\\npenalties\\\\n,\\\\nclaim \\\\nexpenses\\\\n,\\\\na n d\\\\no t h e r\\\\na m o u n t s\\\\nu n d e r\\\\ne a c h\\\\nI n s u r i n g\\\\nA g r e e m e n t ,\\\\nr e g a r d l e s s\\\\no f\\\\nt h e\\\\nn u m b e r\\\\no f\\\\nclaims\\\\n,\\\\nincidents\\\\n,\\\\no r\\\\ninsureds\\\\n.']","Not sure what that is about.  I did not see a policy attached so could not read about it.  Additionally, is there any right of recourse against the Trustees?  If so, would like to have a waiver of that provision.","Based on the policy documents provided, there is no explicit mention of a ""right of recourse against the Trustees."" However, the policy does include provisions related to subrogation and waiver of subrogation rights. Specifically, it states: \\n\\n""This obligation does not apply to the extent that the right to subrogate is waived by you under a written contract with that person or organization, prior to the incident or event giving rise to the claim or loss.""\\n\\nThis may imply that if you have a written contract that waives the right to subrogation with respect to the Trustees, it should be honored, and the policy should not pursue recourse against them. For a more precise determination, consulting the full policy document or seeking legal advice would be advisable.","Based on the policy documents provided, there is no specific mention of a right of recourse against the Trustees. The documents primarily discuss the obligations related to subrogation rights and waivers of subrogation under certain conditions. 
+
+For instance, the ""Waiver of Subrogation Endorsement"" states that the obligation to preserve subrogation rights does not apply to persons or organizations listed in the attached schedule, provided that the right to subrogate is waived under a written contract prior to the incident or event giving rise to the claim or loss.
+
+If you are looking for a waiver of any right of recourse against the Trustees, you may need to consult the specific policy or endorsement that addresses this issue directly, or you may need to request an amendment to the policy to include such a waiver.","
+Please see the attached Specimen Policy. The Pre-Claim Assistance piece is found at the top of page 21 of the Specimen PDF. We advise review with the insured and their legal counsel to determine fit within their request. Let us know if anything else is needed.
+
+",,Wrong,Yes,"**Category:** Can be answered with documents
+
+**Justification:** 
+The email presents specific questions related to the insurance policy, particularly about ""Pre-Claim Assistance"" and the rights of recourse against Trustees. These questions align with the types of inquiries that can be addressed using company documents:
+
+1. **Pre-Claim Assistance:** The email queries what ""Pre-Claim Assistance"" entails since it is mentioned as part of the premium. This fits the query type that seeks definition or explanation of a coverage aspect mentioned in the policy documents.
+
+2. **Right of Recourse Against Trustees:** The email inquires whether there is any right of recourse against the Trustees and the possibility of waiving that provision. This too can be classified under scenario-based questions regarding the extent of coverage or specific clauses within the policy.
+
+Since both queries can potentially be answered by referring to specific sections of the policy document where these terms and conditions are detailed, they fit into the category of being answerable through documents.
+
+**Potential Document:**",normal,closed,renewals@coalitioninc.com,22529226423323,22529226423323,8294828053659,21803884841883.0,5737612269083,,False,True,5785364623515,1260802700910,,,,,Beecher Carlson Insurance Services / Brown and Brown,4363000.0,4363000.0,<=$100MM,True,,"[
+  ""csat_cycle_stop"",
+  ""no-response"",
+  ""jira_update"",
+  ""done"",
+  ""fl"",
+  ""agency"",
+  ""quote_servicing::coverage_question"",
+  ""south_east_7_-_bd"",
+  ""control_policyholder"",
+  ""post-effective"",
+  ""jira_escalated"",
+  ""tier_1"",
+  ""solved-renewals"",
+  ""renewal-30d-sla""
+]","[
+  ""agency"",
+  ""tier_1""
+]","[
+  ""renewal-30d-sla""
+]",renewal-30d-sla,Servicing,Renewal 30 Days,"[
+  ""agency"",
+  ""control_policyholder"",
+  ""csat_cycle_stop"",
+  ""done"",
+  ""fl"",
+  ""jira_escalated"",
+  ""jira_update"",
+  ""no-response"",
+  ""post-effective"",
+  ""quote_servicing::coverage_question"",
+  ""renewal-30d-sla"",
+  ""solved-renewals"",
+  ""south_east_7_-_bd"",
+  ""tier_1"",
+  ""risk_review""
+]","[
+  ""post-effective"",
+  ""renewal-30d-sla""
+]",post-effective,Servicing,Renewal Post Effective,https://help.coalitioninc.com,Servicing,True,enabled,True,coalition,True,Renewal,2022-05-03T17:36:48.000Z,2022-11-16T01:33:20.000Z,https://coalition.zendesk.com/api/v2/groups/5737612269083.json,https://coalition.zendesk.com/api/v2/organizations/21803884841883.json,Beecher Affinity Programs,2024-01-05T20:38:26.000Z,2024-01-26T21:33:49.000Z,,,,,https://coalition.zendesk.com/api/v2/users/22529226423323.json,https://coalition.zendesk.com/api/v2/users/22529226423323.json,https://coalition.zendesk.com/api/v2/users/8294828053659.json,Nick Baldwin,Nick Baldwin,Rich Gonzalez,nick.baldwin@bbrown.com,nick.baldwin@bbrown.com,richard.gonzalez@coalitioninc.com,2024-01-31T13:56:30.000Z,2024-01-31T13:56:30.000Z,2022-08-23T15:30:23.000Z,2024-03-19T17:20:13.000Z,2024-03-19T17:20:13.000Z,2024-06-20T17:46:55.000Z,Pacific Time (US & Canada),Pacific Time (US & Canada),Pacific Time (US & Canada),,,,en-US,en-US,en-US,end-user,end-user,agent,False,False,True,True,True,True,,,2024-06-20T12:48:43.000Z,,,,False,False,False,,,,,2024-03-19T17:20:13.000Z,2024-03-19T17:20:13.000Z,2024-03-19T17:20:13.000Z,2024-03-19T17:20:13.000Z,2024-04-02T18:06:02.000Z,True,False,2024-02-07T16:33:46.000Z,2024-02-07T16:33:46.000Z,2024-02-07T13:56:31.000Z,2024-01-31T15:56:31.000Z,2024-02-14T13:56:31.000Z,2024-02-05T13:56:31.000Z,2024-02-10T13:56:31.000Z,2024-02-02T13:56:31.000Z,2024-02-07T13:56:31.000Z,2024-01-31T15:56:31.000Z,2024-02-14T13:56:31.000Z,2024-02-05T13:56:31.000Z,2024-02-10T13:56:31.000Z,2024-02-02T13:56:31.000Z,C-4LWN-121827-CYBER-2024-01,C-4LWN-121827-CYBER-2023,C-4LWN-121827-CYBER-2024-01,False,,,,,False,TICKET_BATCH-630274,2024-01-31T13:56:31.000Z,1,"[
+  630274
+]","[
+  ""tier_1"",
+  ""fl"",
+  ""jira_escalated"",
+  ""no-response"",
+  ""solved-renewals"",
+  ""csat_cycle_stop"",
+  ""jira_update"",
+  ""south_east_7_-_bd"",
+  ""renewal-30d-sla"",
+  ""quote_servicing::coverage_question"",
+  ""post-effective"",
+  ""control_policyholder"",
+  ""agency"",
+  ""done""
+]",1,"[
+  5180882
+]","[
+  ""36989c2f-59be-439b-baf4-ff348fa8df82""
+]",2023-10-20T04:00:50.802Z,,2023-11-19T04:01:30.358Z,2024-02-12T20:16:16.761Z,True,False,False,,2592040.0,7402486.0,2592040.0,True,4363000.0,Micro SME,COALITION_AUTO_CREATED,True,3311.0,3311.0,3311.0,301.0,2894616f-7523-433f-b84c-27a5fc963da6,Beecher Carlson Brown & Brown,Beecher Carlson Brown & Brown,183557.0,d673a1a0-22d7-4700-8bb4-1b8f4e801bdb,Amanda Hanson,US,FL,3c8e681c-3d1c-42b6-a7c0-b7e5b3e584d0,False,[],2024-02-17,2024-02-17,2024-02-17,2025-02-17,1.0,SURPLUS,Rich's Team,Rich Gonzalez,,,,,,,,,566,2,1,2949822,2949822,441435,2508387,614235.0,616575,4159422,True,True,True,False,False,False,,,,,quote_servicing,coverage_question,,done,Travis Kolupanowich,,south_east_7_-_bd,fl,3,"The foregoing shall not constitute a
+waiver of the right by us to remove, remand, or transfer such suit to any other court of
+competent jurisdiction in accordance with the applicable statutes of the province or
+territory of Canada pertinent hereto. In any suit instituted against us upon this contract,
+we will abide by the final decision of such court or of any appellate court in the event of
+an appeal.
+W e hereby designate the Chief Agent of W estport Insurance Corporation, 150 King
+Street W est, Suite 1000, T oronto, Ontario, Canada M5H 1J9, as the person who is
+authorized to receive such process or a true copy thereof, in compliance with the
+applicable statutes governing said service of process in the jurisdiction in which a cause
+of action under this contract of insurance arises.
+All other terms and conditions of this Policy remain unchanged.
+This endorsement forms a part of the Policy to which attached, ef fective on the
+inception date of the Policy unless otherwise stated herein.
+C Y B C A N 0005 0420 P age 1 of 1
+This obligation does not apply to the extent that the right to
+subrogate is waived by you under a written contract with that person
+or organization, prior to the incident or event giving rise to the claim
+orloss
+All other terms and conditions of this Policy remain unchanged.
+This endorsement forms a part of the Policy to which attached, ef fective on the
+inception date of the Policy unless otherwise stated herein.
+S P 15 810 0318 P age 1 of 1
+The foregoing
+shall not constitute a waiver of the right by us to remove, remand, or transfer such suit
+to any other court of competent jurisdiction in accordance with the applicable statutes of
+the state of United States pertinent hereto. In any suit instituted against us upon this
+contract, we will abide by the final decision of such court or of any appellate court in the
+event of an appeal.
+It is further agreed that service of process in such suit may be made upon the
+Superintendent, Commissioner , or Director of Insurance or other person specified for
+that purpose in the Statute or his successor or successors in of fice as their true and
+lawful attorney upon whom may be served any lawful process in any action, suit, or
+proceeding instituted by or on behalf of the namedinsured or any beneficiary hereunder
+arising out of this contract of insurance.
+However , notwithstanding the foregoing, this Policy is primary to, and
+will not seek contribution from any other valid and collectible
+insurance available to an additional insured, including the
+self-insured retention or deductible portion of that insurance, where
+y ou have agreed in writing, in a contract or agreement, that this
+insurance would be primary and would not seek contribution from
+any other insurance available to an additional insured.
+All other terms and conditions of this Policy remain unchanged.
+This endorsement forms a part of the Policy to which attached, ef fective on the
+inception date of the Policy unless otherwise stated herein.
+S P 16 038 0518 P age 1 of 1
+However , notwithstanding the foregoing, this Policy is primary to, and
+will not seek contribution from any other valid and collectible
+insurance available to an additional insured, including the
+self-insured retention or deductible portion of that insurance, where
+y ou have agreed in writing, in a contract or agreement, that this
+insurance would be primary and would not seek contribution from
+any other insurance available to an additional insured.
+All other terms and conditions of this Policy remain unchanged.
+This endorsement forms a part of the Policy to which attached, ef fective on the
+inception date of the Policy unless otherwise stated herein.
+C Y B S 0022 0221 P age 1 of 1
+CYUSP-00EN-050001- 1022-01 Page 11 of 12
+SPECIMENHowever , notwithstanding the foregoing, this Policy is primary to, and will not seek
+contribution from any other valid and collectible insurance available to an
+additional insured, including the self-insured retention or deductible portion of
+that insurance, where you have agreed in writing, in a contract or agreement, that
+this insurance would be primary and would not seek contribution from any other
+insurance available to an additional insured.
+All other terms and conditions of this Policy remain unchanged.
+This endorsement forms a part of the Policy to which attached, effective on the inception date of the Policy unless
+otherwise stated herein.
+CYUSP-00EN-050001- 1022-01 Page 12 of 12
+Compliance with a breach notice law will not be
+considered as an admission of liability for purposes of this paragraph.
+Expenses incurred by you in assisting and cooperating with us do not constitute
+claim expenses, loss, breach response costs, or breach response services under
+this Policy.
+10. SECTION V, CLAIMS PROCESS, SETTLEMENT is deleted and replaced with the following:
+SETTLEMENT Ifyou refuse to consent to any settlement or compromise of a claim recommended
+by us and acceptable to the claimant, our liability for such claim will not exceed:
+1. the amount for which such claim could have been settled, less the
+retention, plus claim expenses incurred up to the time of such refusal;
+and
+2. eighty percent (80%) of claim expenses incurred after such settlement
+was refused by you, plus eighty percent (80%) of damages and
+regulatory penalties in excess of the amount such claim could have been
+settled under such settlement.
+In this event, we will have the right to withdraw from the further defense of such
+claim by tendering control of the defense thereof to you. The operation of this
+paragraph will be subject to the Limits of Liability and Retention provisions of this
+Policy.
+However , this exclusion does not apply to
+claimexpenses incurred in defending any such claim until and unless
+a final and non-appealable adjudication establishes that a senior
+executive committed such dishonest, fraudulent, criminal, or
+malicious act or omission, at which time we will have the right to
+recoverclaim expenses incurred or paid in defending such claim
+from such seniorexecutives or other parties who committed such
+dishonest, fraudulent, criminal, or malicious act or omission.
+This exclusion will not apply to any insured person who did not
+allegedly or actually participate in or otherwise be involved in the
+dishonest, fraudulent, criminal, or malicious act or omission.
+All other terms and conditions of this Policy remain unchanged.
+S P 17 919 1019 P age 1 of 1
+SPECIMENThis endorsement forms a part of the Policy to which attached, ef fective on the
+inception date of the Policy unless otherwise stated herein.
+S P 17 919 1019 P age 2 of 1
+PLEASE READ IT CAREFULL Y
+This endorsement modi ﬁes insurance provided under the following:
+«language.policy_name»
+In consideration of the premium charged for this Policy, it is hereby understood and agreed that:
+SECTION V, CLAIMS PROCESS, SETTLEMENT is deleted and replaced with the following:
+SETTLEMENT Ifyou refuse to consent to any settlement or compromise of a claim recommended
+by us and acceptable to the claimant, our liability for such claim will not exceed:
+1. the amount for which such claim could have been settled, less
+the retention, plus claim expenses incurred up to the time of
+such refusal; and
+2. [XXX percent] [XX%] of claim expenses incurred after such
+settlement was refused by you, plus [XXX percent] [XX%] of
+damages and regulatory penalties in excess of the amount such
+claim could have been settled under such settlement.
+In this event, we will have the right to withdraw from the further defense of such
+claim by tendering control of the defense thereof to you. The operation of this
+paragraph will be subject to the Limits of Liability and Retention provisions of this
+Policy.
+All other terms and conditions of this Policy remain unchanged.
+PLEASE
+READ
+IT
+CAREFULL Y
+This
+endorsement
+modifies
+insurance
+provided
+under
+the
+following:
+COALITION
+CYBER
+POLICY
+It
+is
+understood
+and
+agreed
+that
+in
+the
+event
+we
+fail
+to
+pay
+any
+amount
+claimed
+to
+be
+due
+hereunder ,
+we
+,
+at
+the
+request
+of
+the
+named
+insured
+,
+will
+submit
+to
+the
+jurisdiction
+of
+a
+court
+of
+competent
+jurisdiction
+within
+the
+United
+States
+of
+America.
+The
+foregoing
+shall
+not
+constitute
+a
+waiver
+of
+the
+right
+by
+us
+to
+remove,
+remand,
+or
+transfer
+such
+suit
+to
+any
+other
+court
+of
+competent
+jurisdiction
+in
+accordance
+with
+the
+applicable
+statutes
+of
+the
+state
+of
+United
+States
+pertinent
+hereto.","['CYUSP-00EN-040015- 1022-01 Page 2 of 3\\\\nSPECIMENThis endorsement forms a part of the Policy to which attached, effective on the inception date of the Policy unless\\\\notherwise stated herein.\\\\nCYUSP-00EN-040015- 1022-01 Page 3 of 3', 'All other terms and conditions of this Policy remain unchanged.\\\\nSP 14 843 1117 Page 2of 2\\\\nSPECIMENThis endorsement forms a part of the Policy to which attached, effective on the\\\\ninception date of the Policy unless otherwise stated herein.\\\\nSP 14 843 1117 Page 3of 2', 'All other terms and conditions of this Policy remain unchanged.\\\\nCYUSP-00EN-020008- 1022-01 Page 3 of 4\\\\nSPECIMENThis endorsement forms a part of the Policy to which attached, effective on the inception date of the Policy unless\\\\notherwise stated herein.\\\\nCYUSP-00EN-020008- 1022-01 Page 4 of 4', 'All other terms and conditions of this Policy remain unchanged.\\\\nThis endorsement forms a part of the Policy to which attached, effective on the inception date of the Policy unless\\\\notherwise stated herein.\\\\nCYUSP-00EN-040001- 1022-01 Page 1 of 2\\\\nSPECIMEN\\\\nCYUSP-00EN-040001- 1022-01 Page 2 of 2', '[POLICY NUMBER] issued by [CARRIER] to [NAMED INSURED] (inclusive of any\\\\nrenewal or replacement thereof) this Policy shall be primary and will not seek\\\\ncontribution.\\\\nAll other terms and conditions of this Policy remain unchanged.\\\\nThis endorsement forms a part of the Policy to which attached, effective on the inception date of the Policy unless\\\\notherwise stated herein.\\\\nCYUSP-00EN-000013- 1022-01 Page 1 of 2\\\\nSPECIMEN\\\\nCYUSP-00EN-000013- 1022-01 Page 2 of 2', 'SPECIMENFILING POLICY NO.: C-4MQ8-021867-CYBER-2022\\\\nENDT . NO.: 16\\\\nDUTY T O COOPERA TE ENDORSEMENT\\\\nForm Number SP 17 274 0219\\\\nEf fective Date of Endorsement xxxxxxxx\\\\nNamed Insured xxxxxxxx\\\\nFiling Policy Number xxxxxxxxxxxxx\\\\nIssued by xxxxxxxxxx\\\\nTHIS ENDORSEMENT CHANGES THE POLICY . PLEASE READ IT CAREFULL Y .\\\\nThis endorsement modifies insurance provided under the following:\\\\nCOALITION CYBER POLICY\\\\nIn consideration of the premium charged for this Policy , it is hereby understood and agreed that:\\\\nSECTION IV , YOUR OBLIGA TIONS AS AN INSURED, DUTY T O COOPERA TE is deleted and replaced\\\\nwith the following:\\\\nDUTY T O COOPERA TE W e will have the right to make any investigation we deem\\\\nnecessary to adjust any claim, and you will cooperate with us in\\\\nall investigations, respond to reasonable requests for\\\\ninformation, and execute all papers and render all assistance as\\\\nrequested by us.', 'SP 14 843 1117 Page 1of 2\\\\nSPECIMENAny entity falling within Paragraphs 3.a. or 3.b. above is referred to as an\\\\n“uncovered entity”. Where Financial Interest Coverage is triggered, the Policy\\\\nwill not provide any coverage for the uncovered entity, and weand thenamed\\\\ninsured further agree that:\\\\na. \\\\n  thenamed\\\\ninsured has a financial interest in the uncoveredentity because it\\\\nbenefits financially from the continued operation of the uncovered entity\\\\nand/or would be prejudiced by claim expenses, damages, loss,regulatory\\\\npenalties, PCI fines and assessments incurred by the uncovered entity in the\\\\noperation of its business arising out of an incident, privacy liability, or\\\\nmultimediawrongfulact; and\\\\n \\\\nb.Weshall indemnify the named insured in respect of any loss to its financial\\\\ninterest, by way of agreed valuation calculated as the amount which would\\\\nhave been payable to the uncovered entity if a policy with the same terms\\\\nand conditions as this Policy had been issued to such uncoveredentity, save\\\\nthat no indemnity shall be provided in respect of any insuring clause which\\\\nwould have covered any individual person.', 'SPECIMEN\\\\nFILING\\\\nPOLICY\\\\nNO.:\\\\nTBD\\\\nENDT\\\\nNO\\\\n.\\\\n:\\\\nSCHEDULED\\\\nCOUNSEL\\\\nENDORSEMENT\\\\nForm\\\\nNumber\\\\nSP\\\\n15\\\\n177\\\\n0121\\\\nEffective\\\\nDate\\\\nof\\\\nEndorsement\\\\nXXXX\\\\nNamed\\\\nInsured\\\\nXXXX\\\\nFiling\\\\nPolicy\\\\nNumber\\\\nXXXX\\\\nIssued\\\\nby\\\\n(Name\\\\nof\\\\nInsurance\\\\nCompany)\\\\n[Carriers]\\\\nTHIS\\\\nENDORSEMENT\\\\nCHANGES\\\\nTHE\\\\nPOLICY .\\\\nPLEASE\\\\nREAD\\\\nIT\\\\nCAREFULL Y .\\\\nThis\\\\nendorsement\\\\nmodifies\\\\ninsurance\\\\nprovided\\\\nunder\\\\nthe\\\\nfollowing:\\\\nCOALITION\\\\nCYBER\\\\nPOLICY\\\\nIn\\\\nconsideration\\\\nof\\\\nthe\\\\npremium\\\\ncharged\\\\nfor\\\\nthis\\\\nPolicy,\\\\nit\\\\nis\\\\nhereby\\\\nunderstood\\\\nand \\\\nagreed\\\\nthat:\\\\n1.', 'SPECIMENFILING POLICY NO.: TBD ENDT NO.:\\\\nSCHEDULED COUNSEL ENDORSEMENT\\\\nFormNumber SP151770121\\\\nEffectiveDateofEndorsement XXXX\\\\nNamedInsured XXXX\\\\nFilingPolicyNumber XXXX\\\\nIssuedby\\\\n(NameofInsuranceCompany)[Carriers]\\\\nTHIS ENDORSEMENT CHANGES THE POLICY . PLEASE READ IT CAREFULL Y .\\\\nThis endorsement modifies insurance provided under the following:\\\\nCOALITION CYBER POLICY\\\\nIn consideration of the premium charged for this Policy, it is hereby understood and\\\\nagreedthat:\\\\n1. SECTION V, CLAIMS PROCESS, DEFENSE is deleted and replaced with the\\\\nfollowing:\\\\nDEFENSE Wewillhavetherightanddutytodefend,subjecttotheLimitsof\\\\nLiabilityandapplicableRetention(s),exclusions,conditions,and\\\\nothertermsofthisPolicy:\\\\n1. anyclaimagainstyouseekingdamagesthatarepayable\\\\nunderthetermsofthisPolicy;or\\\\n2. underSectionII.B,REGULATORYDEFENSEAND\\\\nPENALTIES,any claimintheformofa regulatory\\\\nproceeding.', 'SPECIMEN[Insert Agency Branding]\\\\nFILING POLICY NO.: XXXXXXXXX ENDT NO.: XX\\\\nYOUR OBLIGA TIONS AS AN INSURED ENDORSEMENT\\\\nForm Number SP 17 275 0219\\\\nEf fective Date of\\\\nEndorsementXXXXXX XX, XXXX\\\\nNamed Insured XXXXXXXX\\\\nFiling Policy Number X-XXXX-XXXXXX-XXXXX-XXXX\\\\nIssued by\\\\n(Name of Insurance\\\\nCompany)[INSURANCE COMP ANY]\\\\nTHIS ENDORSEMENT CHANGES THE POLICY. PLEASE READ IT CAREFULL Y\\\\nThis endorsement modifies insurance provided under the following:\\\\nCOALITION CYBER POLICY\\\\nIn consideration of the premium charged for this Policy , it is hereby understood and\\\\nagreed that:\\\\nSECTION IV , YOUR OBLIGA TIONS AS AN INSURED, WHEN THERE IS A CLAIM OR\\\\nINCIDENT is deleted and replaced with the following:\\\\nW HEN THERE IS A\\\\nCLAIM OR INCIDENTY ou must provide us written notice of a claim or incident through\\\\nthe persons named in Item 8. of the Declarations as soon as\\\\npracticable once such claim or incident is known to a senior\\\\nexecutive.']"
