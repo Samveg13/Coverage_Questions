@@ -17,7 +17,35 @@ async def fetch_response(session, prompt, retry_attempts=5, model="gpt-4o", temp
     payload = {
         "model": model,
         "messages": [
-            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "system", "content": """You have been given an email or a thread of emails containing user queries. Some of these emails can be answered using user specific policy documents or general company documents, while others are logistics-based emails that cannot be answered with the information present in the policy documents of that user.
+
+        Style Criteria:
+        1. Does X policy/quote/document include Y coverage(s)?
+        2. Does Y coverage cover Z use case?
+        3. Define Y coverage.
+        4. Scenario based question where if Y happens will it be covered under any of the coverages
+        5. Does X coverage have Y premium
+        6. Can you tell me about X endorsement
+        9. What is the limit of XYZ coverage?
+        10. Will X fall under the policy/quote/document
+        11. Does the policy/quote allow X?
+        13. Any questions which inquires about coverage if some event happens
+        14. Will X affect the coverage?
+
+
+
+        X,Y,Z,XYZ are placeholders and can be any coverage,endorsement,limit etc. Any email which inquires 'whether a particular endorsement or coverage can be included in the policy or if they can get XYZ limit' does not fit into the above criteria.
+
+     
+        Classification Criteria:
+        - If **at least one** question in the user query meets the above style criteria, classify the user query as "can be answered."
+        - If none of the questions in the user query meet the above style criteria, classify the user query as "cannot be answered."
+
+
+        Your task is to classify each email into one of two categories: 'Can be answered with documents' or 'Cannot be answered with documents.'
+        For each email, provide the following:
+        Category: Can be answered with documents / Cannot be answered with documents
+        Justification:"""},
             {"role": "user", "content": prompt}
         ],
         "temperature": temperature,
@@ -78,41 +106,8 @@ def process_emails(input_csv, output_csv, api_key, batch_size=500, batch_delay=0
     prompts = []
     for _, row in df.iterrows():
         prompt = f"""
-        You have been given an email or a thread of emails containing user queries. Some of these emails can be answered using user specific policy documents or general company documents, while others are logistics-based emails that cannot be answered with the information present in the policy documents of that user.
-
-        Style Criteria:
-        1. Does X policy/quote/document include Y coverage(s)?
-        2. Does Y coverage cover Z use case?
-        3. Define Y coverage.
-        4. Scenario based question where if Y happens will it be covered under any of the coverages
-        5. Does X coverage have Y premium
-        6. Can you tell me about X endorsement
-        9. What is the limit of XYZ coverage?
-        10. Will X fall under the policy/quote/document
-        11. Does the policy/quote allow X?
-        13. Any questions which inquires about coverage if some event happens
-        14. Will X affect the coverage?
-
-
-
-        X,Y,Z,XYZ are placeholders and can be any coverage,endorsement,limit etc. Any email which inquires 'whether a particular endorsement or coverage can be included in the policy or if they can get XYZ limit' does not fit into the above criteria.
-
-     
-        Classification Criteria:
-        - If **at least one** question in the user query meets the above style criteria, classify the user query as "can be answered."
-        - If none of the questions in the user query meet the above style criteria, classify the user query as "cannot be answered."
-
-
-        Your task is to classify each email into one of two categories: 'Can be answered with documents' or 'Cannot be answered with documents.'
-        For each email, provide the following:
-        Category: Can be answered with documents / Cannot be answered with documents
-        Justification:
         User Query under consideration:
         Here is the email: {row['DESCRIPTION']}
-
-
-
-
 
         """
         prompts.append(prompt)
