@@ -1,4 +1,3 @@
-# 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
 
 import openai
 import pandas as pd
