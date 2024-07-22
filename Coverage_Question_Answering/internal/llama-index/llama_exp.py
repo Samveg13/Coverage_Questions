@@ -8,7 +8,18 @@ from llama_index.core import QueryBundle
 from llama_index.core.retrievers import VectorIndexRetriever
 from prompts_2 import SYSTEM_PROMPT, generate_prompt
 from openai import OpenAI
+from llama_index.core.extractors import (
+    SummaryExtractor,
+    QuestionsAnsweredExtractor,
+    TitleExtractor,
+    KeywordExtractor,
+)
+from typing import Optional
 
+import click
+import tiktoken
+import yaml
+# from llama_index.extractors.entity import EntityExtractor
 from ragatouille import RAGPretrainedModel
 from llama_index.core.schema import Document
 from llama_index.core import (
@@ -22,11 +33,11 @@ from llama_index.core.ingestion import IngestionPipeline
 from llama_index.core.node_parser import TokenTextSplitter, SentenceSplitter, SemanticSplitterNodeParser
 from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.core.postprocessor import LLMRerank
-
+from costing import estimate_cost
 from aws_requests_auth.aws_auth import AWSRequestsAuth
 from prompts import CHAT_TEXT_QA_PROMPT
-DOWNLOAD_DIR = '/Users/samveg.shah/Desktop/Coverage_Questions/Coverage_Question_Answering/Dataset/Data'
 
+DOWNLOAD_DIR = '/Users/samveg.shah/Desktop/Coverage_Questions/Coverage_Question_Answering/Dataset/Data'
 def setup_openai_api_key():
     api_key = os.getenv("OPENAI_API_KEY")
     if api_key is None:
@@ -74,7 +85,7 @@ def make_authenticated_post_request(url, auth, data):
     response = requests.post(url, auth=auth, json=data)
     return response.json()
 
-def get_chat_response(prompt, model="gpt-4o", temperature=0.7, max_tokens=1024):
+def get_chat_response(prompt, model="gpt-4o mini", temperature=0.7, max_tokens=1024):
     client = OpenAI()
     try:
         completion = client.chat.completions.create(
@@ -149,6 +160,7 @@ def via_cpn(cpn,index):
         
         return quotation_path, specimen_policy_path
     except Exception as e:
+        print("Hi")
         print(f"Failed due to {str(e)}")
         return False, False
 
@@ -156,23 +168,15 @@ def rag_pipe(quotation_text, specimen_policy_text, user_extract_query,index):
     try:
         setup_openai_api_key()
         documents = SimpleDirectoryReader(DOWNLOAD_DIR+"/"+str(index)).load_data()
-        embed_model = OpenAIEmbedding()
-        Settings.embed_model = OpenAIEmbedding()
+        Settings.embed_model = OpenAIEmbedding(model="text-embedding-3-small")
+        Settings.transformations = [SentenceSplitter(chunk_size=256,chunk_overlap=40)]
+        Settings.num_output = 1024
+        Settings.llm=OpenAiLlm(model="gpt-4o mini", max_tokens=4096)
 
-        splitter = SentenceSplitter(chunk_size=512, chunk_overlap=20)
-
-        pipeline = IngestionPipeline(
-            transformations=[
-                splitter,
-                embed_model,
-            ]
-        )
-        
-        nodes = pipeline.run(documents=documents)
-
-        index= VectorStoreIndex(nodes)
-        llm = OpenAiLlm(model="gpt-4o", max_tokens=4096)
+        index= VectorStoreIndex.from_documents(documents)
+        llm = OpenAiLlm(model="gpt-4o mini", max_tokens=4096)
         user_query = user_extract_query
+        print(user_query)
         query_bundle = QueryBundle(user_query)
 
         retriever = VectorIndexRetriever(
@@ -181,14 +185,19 @@ def rag_pipe(quotation_text, specimen_policy_text, user_extract_query,index):
         )
         
         retrieved_nodes = retriever.retrieve(query_bundle)
+        # print(retrieved_nodes)
+
         reranker = LLMRerank(
-            choice_batch_size=5,
-            top_n=35,
+            choice_batch_size=20,
+            top_n=10,
         )
         
-        
+        print('here')
         response = reranker.postprocess_nodes(retrieved_nodes, query_bundle)
+        print('here2')
         dataset=[]
+        print(type(response))
+        print(len(response))
         for node_with_score in response:
             # print(node_with_score.node.text)
             # print("===")
@@ -202,6 +211,10 @@ def rag_pipe(quotation_text, specimen_policy_text, user_extract_query,index):
         # print(response[0])
         
         prompt = generate_prompt(user_extract_query, str(dataset))
+
+        # cost=estimate_cost(prompt, 'gpt-4o',)
+        # print(cost)
+        # print("Hi")
         response = get_chat_response(prompt)
         
         print(response)
@@ -211,6 +224,7 @@ def rag_pipe(quotation_text, specimen_policy_text, user_extract_query,index):
 
         return response, str(dataset)
     except Exception as e:
+        print("/////")
         print(e)
 
         return False,False
@@ -219,8 +233,8 @@ def rag_pipe(quotation_text, specimen_policy_text, user_extract_query,index):
 
 
 def process_tickets(file_path):
-    df = pd.read_csv(file_path)
-    # df=pd.DataFrame(data)
+    # df = pd.read_csv(file_path)[1:2]
+    df=pd.DataFrame(data)
     creds = load_credentials('/Users/samveg.shah/.aws/temp_creds.json')
     auth = create_aws_auth(creds)
 
@@ -364,6 +378,7 @@ def process_tickets(file_path):
                         failures["step3_failure"] += 1
                         continue
                     else:
+                        print("Hiiii")
                         response,source = rag_pipe(quotation_text, specimen_policy_text, row['Extracted User Query'],str(index))
                         if response == False:
                             failures["Index Creation and Query Step"] += 1
