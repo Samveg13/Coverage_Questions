@@ -85,7 +85,7 @@ def make_authenticated_post_request(url, auth, data):
     response = requests.post(url, auth=auth, json=data)
     return response.json()
 
-def get_chat_response(prompt, model="gpt-4o mini", temperature=0.7, max_tokens=1024):
+def get_chat_response(prompt, model="gpt-4o", temperature=0.7, max_tokens=1024):
     client = OpenAI()
     try:
         completion = client.chat.completions.create(
@@ -171,10 +171,10 @@ def rag_pipe(quotation_text, specimen_policy_text, user_extract_query,index):
         Settings.embed_model = OpenAIEmbedding(model="text-embedding-3-small")
         Settings.transformations = [SentenceSplitter(chunk_size=256,chunk_overlap=40)]
         Settings.num_output = 1024
-        Settings.llm=OpenAiLlm(model="gpt-4o mini", max_tokens=4096)
+        Settings.llm=OpenAiLlm(model="gpt-4o", max_tokens=4096)
 
         index= VectorStoreIndex.from_documents(documents)
-        llm = OpenAiLlm(model="gpt-4o mini", max_tokens=4096)
+        llm = OpenAiLlm(model="gpt-4o", max_tokens=4096)
         user_query = user_extract_query
         print(user_query)
         query_bundle = QueryBundle(user_query)
@@ -188,7 +188,7 @@ def rag_pipe(quotation_text, specimen_policy_text, user_extract_query,index):
         # print(retrieved_nodes)
 
         reranker = LLMRerank(
-            choice_batch_size=20,
+            choice_batch_size=10,
             top_n=10,
         )
         
